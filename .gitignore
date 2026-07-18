@@ -1,0 +1,12 @@
+# Deliberate-whitelist repo: nothing is tracked unless explicitly allowed here.
+# Current workspace files (CubeMX experiments, docs, captures) stay local —
+# some contain machine paths that should not be published.
+/*
+!/.gitignore
+!/README.md
+!/firmware/
+!/hardware/
+/firmware/*
+!/firmware/.gitkeep
+/hardware/*
+!/hardware/.gitkeep
