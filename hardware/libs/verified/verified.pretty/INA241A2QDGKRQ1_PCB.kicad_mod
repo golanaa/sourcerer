@@ -1,0 +1,412 @@
+(footprint "INA241A2QDGKRQ1_PCB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TI INA241A2-Q1 DGK0008A VSSOP-8; TI pages 37-39 recommended board layout and stencil")
+	(tags "INA241 current sense VSSOP-8 DGK0008A")
+	(property "Reference" "U**"
+		(at 0 -2.65 0)
+		(layer "F.SilkS")
+		(uuid "48dfcd40-312a-4767-baec-75e3e8561447")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "INA241A2QDGKRQ1_PCB"
+		(at 0 2.65 0)
+		(layer "F.Fab")
+		(uuid "57aaefd5-0d42-481e-aa34-d857155126c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e089755-a617-4b15-804d-74a980f1f93e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0091376-1c5c-45f6-b7f2-94febfecaa7c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Source_Manifest" "footprint-sources/INA241A2QDGKRQ1_PCB.json"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "386a8031-8b8c-4a60-baaa-f3fd5d521e39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source_Manifest_Hash" "0d317b032a93531d6b61c343bc61f8aa28b536ec7262f1b86d1b188b30eff836"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17bc3209-eadd-49a4-b040-b6fd1c59718d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IPN" "P-00035"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3123d8c6-b9d9-4f02-9b4c-43907aff6797")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Version" "0.1.2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cd92a1c-e2d6-44e6-99b8-7459b4a25ae5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Creator" "Steve"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa5c422e-7ac8-49ac-8104-70ae96331b4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rev_Creator" "Steve"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83602f5b-9a11-43ff-90a3-a083fa0890f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Hash" "8a3ce18902520de8"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "344081b1-d408-4388-b3ed-f13caa32570b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f8ff50e-e6da-44b9-b017-3911648eb7c5")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1cc91cc2-13c0-4bf6-99be-5fc27df1b177")
+	)
+	(fp_circle
+		(center -1.8 -1.9)
+		(end -1.6476 -1.9)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7c1cfd66-be07-4668-a49e-e7d7d9d12947")
+	)
+	(fp_line
+		(start -3.15 -1.75)
+		(end 3.15 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2bd280b7-49e2-491a-8758-8bc133a80765")
+	)
+	(fp_line
+		(start -3.15 1.75)
+		(end -3.15 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b51628d-1a3d-467e-8bba-7aae0bc81b18")
+	)
+	(fp_line
+		(start 3.15 -1.75)
+		(end 3.15 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "17a02895-c5a4-4d7b-b5e8-0a0492ff8826")
+	)
+	(fp_line
+		(start 3.15 1.75)
+		(end -3.15 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eb309905-76ea-480a-bc32-74214a16b862")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 -1) (xy -1 -1.5) (xy 1.5 -1.5) (xy 1.5 1.5) (xy -1.5 1.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9b112d96-2cf8-4879-bd9b-e15979224ee4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "51a649cc-d9c8-4fb9-b404-62e07bd5b155")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -2.2 -0.975)
+		(size 1.4 0.45)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(uuid "4c6c7f50-30e8-4262-848e-cffffb2f6cf4")
+	)
+	(pad "" smd roundrect
+		(at -2.2 -0.975)
+		(size 1.5 0.55)
+		(layers "F.Mask")
+		(roundrect_rratio 0.0909090909)
+		(uuid "26101ce3-2d3a-4e1a-b4a0-2964c81e34e9")
+	)
+	(pad "" smd roundrect
+		(at -2.2 -0.325)
+		(size 1.4 0.45)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(uuid "052cb037-9280-41ad-b809-c0d74464260e")
+	)
+	(pad "" smd roundrect
+		(at -2.2 -0.325)
+		(size 1.5 0.55)
+		(layers "F.Mask")
+		(roundrect_rratio 0.0909090909)
+		(uuid "cbffdec1-1ebb-44a6-be60-ed57d4affe90")
+	)
+	(pad "" smd roundrect
+		(at -2.2 0.325)
+		(size 1.4 0.45)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(uuid "5624dd7b-19bd-4736-88d9-4e04e46164dc")
+	)
+	(pad "" smd roundrect
+		(at -2.2 0.325)
+		(size 1.5 0.55)
+		(layers "F.Mask")
+		(roundrect_rratio 0.0909090909)
+		(uuid "9a4b9fd3-e748-4b79-90e0-48455bc2ae86")
+	)
+	(pad "" smd roundrect
+		(at -2.2 0.975)
+		(size 1.4 0.45)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(uuid "91305b3b-6af2-4f03-ba01-4d3ee1e43f07")
+	)
+	(pad "" smd roundrect
+		(at -2.2 0.975)
+		(size 1.5 0.55)
+		(layers "F.Mask")
+		(roundrect_rratio 0.0909090909)
+		(uuid "c9f71b8f-7e88-4c33-aad9-1c62f69375d9")
+	)
+	(pad "" smd roundrect
+		(at 2.2 -0.975)
+		(size 1.4 0.45)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(uuid "6698d20e-86cd-49bd-a004-eb2edcc3f9e8")
+	)
+	(pad "" smd roundrect
+		(at 2.2 -0.975)
+		(size 1.5 0.55)
+		(layers "F.Mask")
+		(roundrect_rratio 0.0909090909)
+		(uuid "87356a1b-8d51-4efe-9087-30aa3530a2b7")
+	)
+	(pad "" smd roundrect
+		(at 2.2 -0.325)
+		(size 1.4 0.45)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(uuid "057de457-674d-4226-8f69-86d4915a9359")
+	)
+	(pad "" smd roundrect
+		(at 2.2 -0.325)
+		(size 1.5 0.55)
+		(layers "F.Mask")
+		(roundrect_rratio 0.0909090909)
+		(uuid "684ea3ef-edcb-4347-8b4b-656df0ab8477")
+	)
+	(pad "" smd roundrect
+		(at 2.2 0.325)
+		(size 1.4 0.45)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(uuid "126618a2-10aa-4348-b42c-cc7ba26a2993")
+	)
+	(pad "" smd roundrect
+		(at 2.2 0.325)
+		(size 1.5 0.55)
+		(layers "F.Mask")
+		(roundrect_rratio 0.0909090909)
+		(uuid "3a72840a-e277-472a-9e09-ec984f51132c")
+	)
+	(pad "" smd roundrect
+		(at 2.2 0.975)
+		(size 1.4 0.45)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(uuid "3e7634bc-2e2b-40a0-a7af-f102ce84756c")
+	)
+	(pad "" smd roundrect
+		(at 2.2 0.975)
+		(size 1.5 0.55)
+		(layers "F.Mask")
+		(roundrect_rratio 0.0909090909)
+		(uuid "bf50f833-38a1-4af4-ba1e-b7923354cccb")
+	)
+	(pad "1" smd roundrect
+		(at -2.2 -0.975)
+		(size 1.4 0.45)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1111111111)
+		(uuid "1e5b7819-13ec-4e31-b740-c5712f6659bb")
+	)
+	(pad "2" smd roundrect
+		(at -2.2 -0.325)
+		(size 1.4 0.45)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1111111111)
+		(uuid "49a93a12-21ba-4cbc-9a1d-cf976a0553b9")
+	)
+	(pad "3" smd roundrect
+		(at -2.2 0.325)
+		(size 1.4 0.45)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1111111111)
+		(uuid "7402a0b7-8c9b-43d2-998f-f121128c45d6")
+	)
+	(pad "4" smd roundrect
+		(at -2.2 0.975)
+		(size 1.4 0.45)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1111111111)
+		(uuid "85e9ccea-b36c-4342-b13e-302a600dbe74")
+	)
+	(pad "5" smd roundrect
+		(at 2.2 0.975)
+		(size 1.4 0.45)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1111111111)
+		(uuid "2006357e-7905-45bc-a5d3-194cee025647")
+	)
+	(pad "6" smd roundrect
+		(at 2.2 0.325)
+		(size 1.4 0.45)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1111111111)
+		(uuid "49ef67d2-8765-4f74-a118-e75fafbf8b37")
+	)
+	(pad "7" smd roundrect
+		(at 2.2 -0.325)
+		(size 1.4 0.45)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1111111111)
+		(uuid "61e7014b-2661-42b2-bda7-f3da40a7488b")
+	)
+	(pad "8" smd roundrect
+		(at 2.2 -0.975)
+		(size 1.4 0.45)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1111111111)
+		(uuid "b33b7e24-6edf-4749-bf60-596327c8867a")
+	)
+	(embedded_fonts no)
+	(model "${OCPM_3DMODEL_DIR}/verified/verified.3dshapes/INA241A2QDGKRQ1_PCB.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

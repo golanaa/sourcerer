@@ -1,0 +1,235 @@
+(footprint "XAL1010-682MED_PCB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Coilcraft XAL1010-682MED, 6.8 uH shielded power inductor. Managed copy based on KiCad 10 Inductor_SMD:L_Coilcraft_XAL1010-XXX and checked against Coilcraft Document 804-4 revised 2026-02-25.")
+	(tags "Coilcraft XAL1010 6.8uH shielded power inductor")
+	(property "Reference" "REF**"
+		(at 0 -6.85 0)
+		(layer "F.SilkS")
+		(uuid "f1227edb-8607-43da-b828-b0a45199431c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XAL1010-682MED_PCB"
+		(at 0 6.85 0)
+		(layer "F.Fab")
+		(uuid "27359ff1-0e4b-4f1d-a943-cbc43d137149")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95608ab1-cfe1-48b1-8565-62757aaf982f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7e6292c-b165-4f24-a2a4-1a0cc7bfd05a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Source" "Inductor_SMD:L_Coilcraft_XAL1010-XXX"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65009d4f-a847-4328-8adc-93321554e4ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Version" "0.1.2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5cbb386-2f34-4255-a861-9b622e7568ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Creator" "Steve"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ba0fed2-a2f7-4d0d-a43d-cfc0a51e9d80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rev_Creator" "Steve"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ece88a7d-55be-4cba-878f-c79347f5b375")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Hash" "5ad95e7e80e5defa"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d6dd8cd-83e0-4f38-9c4f-1355d53abe91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IPN" "P-00011"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.36 -6.01)
+		(end 5.36 -6.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f53b4992-2146-4a07-aea5-4cb0ce17f1b3")
+	)
+	(fp_line
+		(start -5.36 6.01)
+		(end -5.36 -6.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5815856-06b6-44e4-925c-d15207ddfacd")
+	)
+	(fp_line
+		(start 5.36 -6.01)
+		(end 5.36 6.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39ea66fe-af2f-462d-9145-73a138096517")
+	)
+	(fp_line
+		(start 5.36 6.01)
+		(end -5.36 6.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3cf1374-fedc-4684-93a9-921a0735b6c4")
+	)
+	(fp_circle
+		(center -5.65 -5.95)
+		(end -5.4976 -5.95)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "0578e2fe-7f06-4237-a12e-81316e265162")
+	)
+	(fp_rect
+		(start -5.85 -6.15)
+		(end 5.5 6.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "df083c57-4f5c-4757-a0c4-0a8172ae7549")
+	)
+	(fp_rect
+		(start -5 -5.65)
+		(end 5 5.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c83273da-d94a-4260-8ae3-0a119c94017b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d0e0bfa4-ca98-452a-9014-f5fa55ffee70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.325 0)
+		(size 2.38 9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.105042)
+		(uuid "1b8bcd18-853b-47a1-bd24-ffbac9e225e5")
+	)
+	(pad "2" smd roundrect
+		(at 3.325 0)
+		(size 2.38 9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.105042)
+		(uuid "3feee208-c6b1-443f-a0fb-ef62cab5d0f1")
+	)
+	(embedded_fonts no)
+	(model "${OCPM_3DMODEL_DIR}/verified/verified.3dshapes/XAL1010-682MED_PCB.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

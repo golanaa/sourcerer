@@ -1,0 +1,84 @@
+(footprint "SEWF3920D5L00P9_PCB"
+	(version 20260206)
+	(generator "OCPM")
+	(layer "F.Cu")
+	(descr "C&B/RESI SEWF3920 5 mOhm two-terminal alloy current-sense resistor; manufacturer a/b/c land pattern")
+	(tags "SEWF3920 shunt current sense resistor 3920")
+	(property "Reference" "R**" (at 0 -4.15 0) (layer "F.SilkS") (effects (font (size 1 1) (thickness 0.15))))
+	(property "Value" "SEWF3920D5L00P9_PCB" (at 0 4.15 0) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
+	(property "Source_Manifest" "footprint-sources/SEWF3920D5L00P9_PCB.json" (at 0 0 0) (layer "F.Fab") (hide yes) (effects (font (size 1 1) (thickness 0.15))))
+	(property "Source_Manifest_Hash" "4af65753cdb0f492cd8c0015f17534000855d5646b744d88c7b9207756a91447" (at 0 0 0) (layer "F.Fab") (hide yes) (effects (font (size 1 1) (thickness 0.15))))
+	(property "IPN" "P-00036"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Version" "0.1.2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Creator" "Steve"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rev_Creator" "Steve"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Hash" "af08149438d340a3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line (start -2.6 -2.6) (end 2.6 -2.6) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+	(fp_line (start -2.6 2.6) (end 2.6 2.6) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+	(fp_rect (start -5 -2.6) (end 5 2.6) (stroke (width 0.1) (type solid)) (fill no) (layer "F.Fab"))
+	(fp_text user "${REFERENCE}" (at 0 0 0) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
+	(fp_line (start -5.75 -3.35) (end 5.75 -3.35) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+	(fp_line (start 5.75 -3.35) (end 5.75 3.35) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+	(fp_line (start 5.75 3.35) (end -5.75 3.35) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+	(fp_line (start -5.75 3.35) (end -5.75 -3.35) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+	(pad "1" smd rect (at -4.15 0) (size 2.7 6.2) (layers "F.Cu"))
+	(pad "2" smd rect (at 4.15 0) (size 2.7 6.2) (layers "F.Cu"))
+	(pad "" smd rect (at -4.15 0) (size 2.8 6.3) (layers "F.Mask"))
+	(pad "" smd rect (at 4.15 0) (size 2.8 6.3) (layers "F.Mask"))
+	(pad "" smd rect (at -4.15 0) (size 2.7 6.2) (layers "F.Paste"))
+	(pad "" smd rect (at 4.15 0) (size 2.7 6.2) (layers "F.Paste"))
+	(embedded_fonts no)
+	(model "${OCPM_3DMODEL_DIR}/verified/verified.3dshapes/SEWF3920D5L00P9_PCB.step" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz -90 0 0)))
+)

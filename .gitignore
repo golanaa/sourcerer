@@ -1,12 +1,35 @@
-# Deliberate-whitelist repo: nothing is tracked unless explicitly allowed here.
-# Current workspace files (CubeMX experiments, docs, captures) stay local —
-# some contain machine paths that should not be published.
+# Track the working design and selected dependencies; keep private notes local.
 /*
 !/.gitignore
+!/.gitattributes
 !/README.md
 !/firmware/
 !/hardware/
 /firmware/*
 !/firmware/.gitkeep
+!/firmware/*.ioc
 /hardware/*
 !/hardware/.gitkeep
+!/hardware/README.md
+!/hardware/pcb/
+!/hardware/libs/
+/hardware/pcb/*
+!/hardware/pcb/*.kicad_pro
+!/hardware/pcb/*.kicad_sch
+!/hardware/pcb/*.kicad_pcb
+!/hardware/pcb/sym-lib-table
+!/hardware/pcb/fp-lib-table
+/hardware/libs/*
+!/hardware/libs/dependencies.json
+!/hardware/libs/KICAD-LIBRARIES-LICENSE.md
+!/hardware/libs/power/
+!/hardware/libs/verified/
+!/hardware/libs/unverified/
+/hardware/libs/*/*
+!/hardware/libs/*/*.kicad_sym
+!/hardware/libs/*/*.pretty/
+!/hardware/libs/*/*.3dshapes/
+/hardware/libs/*/*.pretty/*
+!/hardware/libs/*/*.pretty/*.kicad_mod
+/hardware/libs/*/*.3dshapes/*
+!/hardware/libs/*/*.3dshapes/*.step

@@ -1,0 +1,196 @@
+{
+  "description": "Pinned CAD dependencies; library symbols and footprint/model bytes preserved from source.",
+  "files": {
+    "power/power.kicad_sym": "207385cf9b500f8f2cc2a0368ada2c8f37de1267a6563107451213d77ce410a8",
+    "verified/verified.3dshapes/BAS16WH-AQ_PCB.step": "132323445e3d1f9231e81c083cd88a33cd204dd8b96063bb2ed1f3ab4470c7e7",
+    "verified/verified.3dshapes/CS10820-24M_PCB.step": "eea7262e5781943394ac3ed4f9d076ea60a9856fdf5911f6ab502d1fcc1b0836",
+    "verified/verified.3dshapes/C_0402_1005Metric.step": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+    "verified/verified.3dshapes/C_0603_1608Metric.step": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+    "verified/verified.3dshapes/C_0805_2012Metric.step": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+    "verified/verified.3dshapes/C_1210_3225Metric.step": "f8510481c5044113cf49b0fa6dd54ddab9224508bd6808e1afab8ef0cefdefc9",
+    "verified/verified.3dshapes/EPC2305_PCB.step": "69e78c1e29634fa1b374b3555b88b181da39c23a1bc6c3b31b6171b5b06378bc",
+    "verified/verified.3dshapes/FCM1608KF-301T05_PCB.step": "b0136ad7160588d2f5dac8c85da84a35646db656b5bc54bbb873b6b548eedbb3",
+    "verified/verified.3dshapes/IHLP2525CZER100M01_PCB.step": "840e264ce6dbe67b84c1cf70c4f4c8cf9101eae124543df2874af8e6c8d718d4",
+    "verified/verified.3dshapes/INA241A2QDGKRQ1_PCB.step": "0af17c38f7022ea10ff245f82773c9b00d4163a407490c6b2d91869a0861df56",
+    "verified/verified.3dshapes/LMG1210RVRT_PCB.step": "7c5fb80eacaaed18533ddd9cbaee3046ad09464550b56aa6bf3420ff53540fff",
+    "verified/verified.3dshapes/LMR36520FADDAR_PCB.step": "7c8402884dd382986ac0921b11017ddc8406ecc0c184f28d55f3e31f730195b5",
+    "verified/verified.3dshapes/P-00005_PCB.step": "720a6eab0024069bbee68e7cb4c3ff1149468a34611225cdc852662c5d0ec2b7",
+    "verified/verified.3dshapes/PMEG6020ETP_PCB.step": "c003e2404f0da54e5af8c03e5d17922dfe21a75730e6ca001353ba55a8685e17",
+    "verified/verified.3dshapes/RB568VAM150TR_PCB.step": "76584f3ae59d891fbfbe13b07edea1a369ed3fd4d524f15940c436e35703b9d6",
+    "verified/verified.3dshapes/R_0402_1005Metric.step": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+    "verified/verified.3dshapes/R_0805_2012Metric.step": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+    "verified/verified.3dshapes/R_2010_5025Metric.step": "6f990878f55f2458c0263e55075c72360fd33db78dbf5aa5c5ba731c9bca560b",
+    "verified/verified.3dshapes/SEWF3920D5L00P9_PCB.step": "6f9986cec71ee4b26d71b2d0fdde6d2508885522f0f7a0626c500a4f37e9d505",
+    "verified/verified.3dshapes/STM32G474CBT6TR_PCB.step": "9dea352d93177c2904afd7d7b68ea8855ce1ab691f69f8b3e13655600514b6bf",
+    "verified/verified.3dshapes/XAL1010-682MED_PCB.step": "c14bbaa2f7fe868a67229ed0e40aebf74febefcb20812b0d83ed2d12f4a622f3",
+    "verified/verified.kicad_sym": "924970e4bc81b5745420357df495f92fcbe0bc42ac662fd5904d6c5330f05930",
+    "verified/verified.pretty/BAS16WH-AQ_PCB.kicad_mod": "9652f6e002b6a4ccb382045fd5e5316b658c71f411161a8bdf9cf2688c7e1669",
+    "verified/verified.pretty/CS10820-24M_PCB.kicad_mod": "81cb1db2063dd5e22efd8d4e995381e4f9a533e637b534cf07526fbde812dcfb",
+    "verified/verified.pretty/C_0402_1005Metric.kicad_mod": "d422657298abd8e9680d056df37263188fc784d522c1647c78be1d6ef078e9c1",
+    "verified/verified.pretty/C_0603_1608Metric.kicad_mod": "15433fe75231b8956df6147d2656e335793ae0a58427fc1ea0b03aa09b36415b",
+    "verified/verified.pretty/C_0805_2012Metric.kicad_mod": "9e4ca537a33227963a9857432025c52af6dc4e7234979df295c2b8c54e9847f6",
+    "verified/verified.pretty/C_1210_3225Metric.kicad_mod": "0d34548f25315e65cc5c6069eea9611f7c1ac0b28c846d6e968a12f3f0787f8f",
+    "verified/verified.pretty/EPC2305_PCB.kicad_mod": "f749d6b73d263f0537f36a28c442114bb1a52925d89778e107e1195591928c60",
+    "verified/verified.pretty/FCM1608KF-301T05_PCB.kicad_mod": "8f1d863fd376627ec95e597f58c03b10b7863588a41ba1121224163ebd31a2b5",
+    "verified/verified.pretty/IHLP2525CZER100M01_PCB.kicad_mod": "d39d854f0c04bfd518ac9cd8a27e00298792b46ec239174860de069579b6db5e",
+    "verified/verified.pretty/INA241A2QDGKRQ1_PCB.kicad_mod": "109616ec668a3fc0f48aab3f46d3fd028cf49bad5d46eac3f2c484d5888c37c5",
+    "verified/verified.pretty/LMG1210RVRT_PCB.kicad_mod": "6bbda79d318a87cc68d6cfcfe841dc6a82829212233e7d9595a6beceb3b18fa3",
+    "verified/verified.pretty/LMR36520FADDAR_PCB.kicad_mod": "0f985b1f7b7679740d6f3bece7fd13538ec1b50f152eae34f6cf3846246c5afa",
+    "verified/verified.pretty/P-00005_PCB.kicad_mod": "6ec16c4acb55d7bfa240df97f1b07665316d18536d89911ad9fda8d800719143",
+    "verified/verified.pretty/PMEG6020ETP_PCB.kicad_mod": "9406cee81b6ffef08ae3b3d85f49707b606d15b2bb167cecbebc41c283bece50",
+    "verified/verified.pretty/RB568VAM150TR_PCB.kicad_mod": "a993769b5d7a47cea7ca070eb3cd2c0f4b972d579b1390ef5950aa4c34ea24df",
+    "verified/verified.pretty/R_0402_1005Metric.kicad_mod": "b60856ab16ed31cdae75c1c9b98852ddd6e67b735ef86c77f16a9b78885dade6",
+    "verified/verified.pretty/R_0805_2012Metric.kicad_mod": "b009646a6006be5d44ef797e393d21dffc13adc36202969b9916d60f0ef80a40",
+    "verified/verified.pretty/R_2010_5025Metric.kicad_mod": "0627d4e62eef2c51287d588be40aeeecb3a0bea152db8979abf435cc99090f0a",
+    "verified/verified.pretty/SEWF3920D5L00P9_PCB.kicad_mod": "b6cab248150b6c4db3ed4018caeb6d99b60e3ae831ebf4aa4f5766529d094ce1",
+    "verified/verified.pretty/STM32G474CBT6TR_PCB.kicad_mod": "25d67cf2cb93cc7a739e3f245f839d49e0412a3d133248eaf6e3072f8997501c",
+    "verified/verified.pretty/XAL1010-682MED_PCB.kicad_mod": "db6ba0c91c23a228f844b86e82e8690703b00bc71ca6cc56f64897d7c0a0d42b"
+  },
+  "schema": 1,
+  "symbols": {
+    "power:+VSW": {
+      "engineering_hash": "904c77951b22ddb5",
+      "source_block_sha256": "c991ce1bb3fd346db22c25c4d7a2e41f88e87b28902a9e29312b8c5b436ca625"
+    },
+    "power:GND": {
+      "engineering_hash": "5828047fcbbc2410",
+      "source_block_sha256": "4a72587cb4351c3a7e8664c53338f8c6dfa5828b36cb98baf80b010ba1b2b4f3"
+    },
+    "verified:BAS16WH-AQ": {
+      "engineering_hash": "5a2a590418f76475",
+      "source_block_sha256": "6db21fe1e5bf412f3fca8e5c8fb99a81a0f8375e9760b63b80e36d852bfdcdb8"
+    },
+    "verified:CS10820-24M": {
+      "engineering_hash": "8ab4ac586639df1c",
+      "source_block_sha256": "00c20a0f57e300562f86cafccc72e66893c79ad9a8e6afe6693f84e89576ed68"
+    },
+    "verified:EPC2305": {
+      "engineering_hash": "e3536bc7dc005dd2",
+      "source_block_sha256": "f917ed7fb1c8e22a4dd75d7ade779556e362099be0d3f8e94fdedbd770f0f110"
+    },
+    "verified:FCM1608KF-301T05": {
+      "engineering_hash": "1a6e01df3651531b",
+      "source_block_sha256": "8daad17acb4bcfdb1897e2446a84f31bfefb66d34367cb33ef39dbd83d47f322"
+    },
+    "verified:IHLP2525CZER100M01": {
+      "engineering_hash": "869f6831b30a664e",
+      "source_block_sha256": "0dd5dc3f79c31e742cd84b07a4a1f5efdc27234cb9e2de0ae1f13a5b162613a0"
+    },
+    "verified:INA241A2QDGKRQ1": {
+      "engineering_hash": "7d9f59d19dc41c0b",
+      "source_block_sha256": "22f54dbbb0973a7ac13b3b79bb16fde03b13e3c8368fdb537bd7ba40f8ca8f62"
+    },
+    "verified:LMG1210RVRT": {
+      "engineering_hash": "6e607e5f2f1de872",
+      "source_block_sha256": "26ffedbd67a7e31b27675e6734b91e116c096a3ae3ebdc2e0ed71a5941cc4e57"
+    },
+    "verified:LMR36520FADDAR": {
+      "engineering_hash": "6e0ca6cd6e6eb441",
+      "source_block_sha256": "e14a82dff7da87dd93f2f59f4a03a5bec17ec54153994cfbecd8ceb85d4dffdd"
+    },
+    "verified:LP5907MFX-3.3/NOPB": {
+      "engineering_hash": "9f69c1d1a7771d91",
+      "source_block_sha256": "c24e3f1f1244e5158576744c33d0a99620b7f189451e87c99be3ea8f01698702"
+    },
+    "verified:P-00012": {
+      "engineering_hash": "2542b0e3e5ffcb98",
+      "source_block_sha256": "6f852af999ad310614d5061d22b129d184cefa9ac5e5820c36c8316d69a6dc39"
+    },
+    "verified:P-00013": {
+      "engineering_hash": "6a320f2838449116",
+      "source_block_sha256": "b1c57ff67a116e7edd3803e829eb340b97a306b9c597bab99a2a25cad7cc2acd"
+    },
+    "verified:P-00014": {
+      "engineering_hash": "19a8b23c01c2eba8",
+      "source_block_sha256": "68490873794ca6d493ba4c02912dc97b6e26ad825f01af979795e658d0588889"
+    },
+    "verified:P-00015": {
+      "engineering_hash": "58cc58d737b80d12",
+      "source_block_sha256": "1709c98be1b26c646fdf2d9636114ebfdaaaf5d95774c8ff116f0aa8489782e1"
+    },
+    "verified:P-00016": {
+      "engineering_hash": "ff9644a485d71a67",
+      "source_block_sha256": "57aed99626a558c1f4091311b31291deae574f3d413e19f7fb00be7ed8be108d"
+    },
+    "verified:P-00017": {
+      "engineering_hash": "e13dd83282683700",
+      "source_block_sha256": "6305f4fd7586cd4545c1b1610c948cf573c6ac8897f7ac8d1e745fa8bdc70e5a"
+    },
+    "verified:P-00018": {
+      "engineering_hash": "17252c8c0b1aecc7",
+      "source_block_sha256": "78b7920a2a3a61c6d5d877b0315d6a1f1d5426fc755130932b9cdf9a7495fba3"
+    },
+    "verified:P-00019": {
+      "engineering_hash": "2fe99ffac2e87a7c",
+      "source_block_sha256": "6a2b332312d1dc580e46a2b4c7b400544c7d28314ef51f29b21aed8366d07e2e"
+    },
+    "verified:P-00020": {
+      "engineering_hash": "4cd56f3eb0aee6f7",
+      "source_block_sha256": "630ac70f3be5894780482b14f73e1f2408bbcf5a4edd00aefb08d6fb74d6787f"
+    },
+    "verified:P-00021": {
+      "engineering_hash": "1c28230c936da672",
+      "source_block_sha256": "1658602b8b1c35dee70d6b650b93f86b6c0d5e6a299e6f154a01fa1bd684b6d5"
+    },
+    "verified:P-00022": {
+      "engineering_hash": "0619541f735b2311",
+      "source_block_sha256": "c763270b647802c01b08f6d9c5aea7a4bc2f7b1f402fe49b992fc9a1889b1305"
+    },
+    "verified:P-00023": {
+      "engineering_hash": "6aa389074e380ef5",
+      "source_block_sha256": "cf18280ced2d1951d1af6c6009cc571994e9577048b5b785aa74168bafe7f3ad"
+    },
+    "verified:P-00024": {
+      "engineering_hash": "5ff5a8df005021d3",
+      "source_block_sha256": "95953e017d1c79395229732825184228675065001a5a97409d701de55da99f99"
+    },
+    "verified:P-00028": {
+      "engineering_hash": "1d2a882f45307465",
+      "source_block_sha256": "3a045d32c551197d84bea29246d556ce03cdd5d02ab8746d032be229069be644"
+    },
+    "verified:P-00029": {
+      "engineering_hash": "47f600e61f8d8c20",
+      "source_block_sha256": "c4af4ed18c1d433dfa1b0bf5a1a2dc72c0fd6f44532099d24f2dec4a27f16c8f"
+    },
+    "verified:P-00033": {
+      "engineering_hash": "22eb248036c0adbd",
+      "source_block_sha256": "c24dc9976a08e9360591003609b7a86305792303e59643213d6e36e38617b550"
+    },
+    "verified:P-00034": {
+      "engineering_hash": "735a21acf441f303",
+      "source_block_sha256": "2a17512e69a989f253b172440d26670dd592b94aea9d3abc0070990e3b4ce2fd"
+    },
+    "verified:P-00043": {
+      "engineering_hash": "1f1dbe10affec3a1",
+      "source_block_sha256": "11880ed1c6793ff08be1053067eca2f97a4d8b582815501bd4eeb49c01bfc48e"
+    },
+    "verified:P-00044": {
+      "engineering_hash": "f8652e1266a27f5d",
+      "source_block_sha256": "055815047fe00d7fd57f79d6c6273d782c0a4dadf98bc75b2e7688c9ef388244"
+    },
+    "verified:P-00045": {
+      "engineering_hash": "d8720a43ae1f727f",
+      "source_block_sha256": "330a99d844d96221466c0f7863e08ed2daebba6f8982a75775f307dfb0c75043"
+    },
+    "verified:PMEG6020ETP": {
+      "engineering_hash": "54bb5f0ab0e3a9b0",
+      "source_block_sha256": "e0c8b0d46e5ccf278ab5e942af7865ae2f901ad5094f654b41bed95c561091cf"
+    },
+    "verified:RB568VAM150TR": {
+      "engineering_hash": "641026e780e58f7d",
+      "source_block_sha256": "4661df5ca52980b2a2a7551b1e9bee4ee2cb4a2e077eeb4e596d7878cee428d0"
+    },
+    "verified:SEWF3920D5L00P9": {
+      "engineering_hash": "73266fd44c8db88f",
+      "source_block_sha256": "277c055b611c41c39af01d315c3a1b31469f7671719a731c80f87df044b8fc53"
+    },
+    "verified:STM32G474CBT6TR": {
+      "engineering_hash": "e197f3a936896d47",
+      "source_block_sha256": "59fad18f27c7f628095f8034d687b4301611d8a92c552a756f7f16d16a47ddd2"
+    },
+    "verified:XAL1010-682MED": {
+      "engineering_hash": "88a5b7a1b52c8702",
+      "source_block_sha256": "8c01ddd70708d9da5e7e6b174bd5c1077aef7f63c3f46d94c3c90c8915821f84"
+    }
+  }
+}
