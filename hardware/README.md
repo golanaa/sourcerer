@@ -2,7 +2,7 @@
 
 Open `pcb/sourcerer.kicad_pro` with KiCad 10.0.4 or later, with the standard
 KiCad symbol and footprint libraries installed. This is the working design,
-not an export. The CubeMX configuration is `../firmware/sourcerer_v1_1.ioc`.
+not an export. The CubeMX configuration is `../firmware/sourcerer.ioc`.
 
 ## Schematic sheets
 
