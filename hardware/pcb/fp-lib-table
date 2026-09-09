@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "verified")(type "KiCad")(uri "${KIPRJMOD}/../libs/verified/verified.pretty")(options "")(descr "Project-pinned dependency"))
-)
