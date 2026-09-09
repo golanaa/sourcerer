@@ -10,6 +10,7 @@
 /hardware/*
 !/hardware/.gitkeep
 !/hardware/README.md
+!/hardware/ocpm-library.lock
 !/hardware/pcb/
 /hardware/pcb/*
 !/hardware/pcb/*.kicad_sch

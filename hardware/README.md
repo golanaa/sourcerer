@@ -41,12 +41,43 @@ registration is required. Open the project rather than a detached board so
 KiCad loads the project settings. Reopen an already-open project after changing
 these paths.
 
-Sourcerer contains no copied component libraries, dependency-export manifest,
-Git submodule, or per-commit library synchronization step. Pull the shared-library
-repository when you want its latest components. On the OCPM host, this same
-sibling path may be a local link to the authoritative library instead of another
-checkout. The separate repository and its publication workflow are being set up
-independently; this directory change does not create or publish that repository.
+### Pinned library revision
+
+[`ocpm-library.lock`](ocpm-library.lock) records the library repository and exact
+commit expected by this Sourcerer revision. Use that commit, not whichever
+library version happens to be newest. The lock file documents the dependency;
+KiCad does not read or enforce it automatically.
+
+After cloning Sourcerer, run these commands **from the Sourcerer repository root**
+to create a separate sibling library checkout and select the pinned revision:
+
+```sh
+git clone https://github.com/golanaa/ocpm-library.git ../ocpm-library
+git -C ../ocpm-library checkout --detach "$(sed -n 's/^commit=//p' hardware/ocpm-library.lock)"
+```
+
+If the sibling checkout already exists, skip cloning. After switching Sourcerer
+branches or pulling changes, check its lock file and select the recorded revision:
+
+```sh
+git -C ../ocpm-library fetch origin
+git -C ../ocpm-library checkout --detach "$(sed -n 's/^commit=//p' hardware/ocpm-library.lock)"
+```
+
+These commands use a detached checkout to reproduce the recorded library
+revision. Create a library branch before making component changes; preserve any
+local work before switching revisions.
+
+### Updating the dependency
+
+When a design change needs new or revised library components, commit and publish
+those components in the library repository first. Update the full `commit=` hash
+in `ocpm-library.lock` and commit that pin alongside the Sourcerer design change.
+The pinned commit must be available from the recorded repository. Ordinary design
+changes that use the same library revision do not require a pin update.
+
+Sourcerer contains no copied component libraries or Git submodule. The separate
+checkout remains the library source; updating the pin does not copy any files.
 
 Placed symbols and footprints remain embedded in the schematic and board.
 Applying library revisions to them is still an explicit KiCad action. Existing
