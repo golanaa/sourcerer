@@ -60,10 +60,3 @@ empty layout scaffold, so assigned footprints must still be obtained from the
 shared library when populating it. The CubeMX file is peripheral planning, not
 completed closed-loop firmware. Existing circuit/ERC findings remain design
 work; no circuitry or approval states are changed by this directory setup.
-
-## Supporting files
-
-Project design documents are in `../docs/`, editable diagrams in `../diagrams/`,
-and historical CAD recovery files in `../archive/pcb/`. The local schematic
-style check is `../tests/test_power_symbol_style.py`. These supporting files
-remain excluded from Git pending a separate publication decision.
