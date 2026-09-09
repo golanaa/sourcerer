@@ -1,6 +1,4 @@
-# Deliberate-whitelist repo: nothing is tracked unless explicitly allowed here.
-# Current workspace files (CubeMX experiments, docs, captures) stay local —
-# some contain machine paths that should not be published.
+# Working source is eligible for Git; private notes and editor artifacts stay local.
 /*
 !/.gitignore
 !/README.md
@@ -8,5 +6,17 @@
 !/hardware/
 /firmware/*
 !/firmware/.gitkeep
+!/firmware/*.ioc
 /hardware/*
 !/hardware/.gitkeep
+!/hardware/README.md
+!/hardware/pcb/
+/hardware/pcb/*
+!/hardware/pcb/*.kicad_sch
+!/hardware/pcb/*.kicad_pcb
+!/hardware/pcb/*.kicad_pro
+!/hardware/pcb/sym-lib-table
+!/hardware/pcb/fp-lib-table
+# Component libraries live in the separate sibling checkout, never in this repo.
+/hardware/libs/
+/hardware/published/

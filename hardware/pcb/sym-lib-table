@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "verified")(type "KiCad")(uri "${KIPRJMOD}/../../../ocpm-library/verified/verified.kicad_sym")(options "")(descr "Shared OCPM verified library"))
+  (lib (name "unverified")(type "KiCad")(uri "${KIPRJMOD}/../../../ocpm-library/unverified/unverified.kicad_sym")(options "")(descr "Shared OCPM unverified candidates"))
+  (lib (name "power")(type "KiCad")(uri "${KICAD10_SYMBOL_DIR}/power.kicad_sym")(options "")(descr "KiCad standard power symbols"))
+  (lib (name "Device")(type "KiCad")(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")(options "")(descr "KiCad standard device symbols"))
+)

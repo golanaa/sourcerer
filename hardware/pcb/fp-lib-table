@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "verified")(type "KiCad")(uri "${KIPRJMOD}/../../../ocpm-library/verified/verified.pretty")(options "")(descr "Shared OCPM verified footprints"))
+  (lib (name "unverified")(type "KiCad")(uri "${KIPRJMOD}/../../../ocpm-library/unverified/unverified.pretty")(options "")(descr "Shared OCPM unverified footprints"))
+  (lib (name "Capacitor_SMD")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Capacitor_SMD.pretty")(options "")(descr "KiCad standard capacitor footprints"))
+  (lib (name "Resistor_SMD")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Resistor_SMD.pretty")(options "")(descr "KiCad standard resistor footprints"))
+  (lib (name "Diode_SMD")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Diode_SMD.pretty")(options "")(descr "KiCad standard diode footprints"))
+)
