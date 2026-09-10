@@ -7,6 +7,8 @@ firmware are not yet complete.
 
 ## v1 Concept
 
+![Sourcerer v1 system overview showing power paths, local control, and miner coordination](assets/sourcerer-system-overview.png)
+
 Sourcerer is being developed as an open reference platform for solar-powered
 Bitcoin mining. It prioritizes safe power-supply behavior while allowing the
 converter and a connected Bitaxe to coordinate around available solar power.

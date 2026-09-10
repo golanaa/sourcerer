@@ -21,3 +21,8 @@
 # Component libraries live in the separate sibling checkout, never in this repo.
 /hardware/libs/
 /hardware/published/
+
+# README image asset.
+!/assets/
+/assets/*
+!/assets/sourcerer-system-overview.png
