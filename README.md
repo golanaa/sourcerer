@@ -10,7 +10,7 @@ converter and a connected Bitaxe to coordinate around available solar power.
 An optional isolated wall-supply path can maintain load operation when solar
 power is insufficient, while available solar power displaces wall power.
 
-![Sourcerer v1 system overview showing power paths, local control, and miner coordination](assets/sourcerer-system-overview.png)
+![Sourcerer v1 system overview showing power paths, local control, and miner coordination](assets/sourcerer-system-overview.png?v=fd97dd8)
 
 ## Backend-Neutral Miner Integration
 
