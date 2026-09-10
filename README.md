@@ -34,3 +34,10 @@ multiple AxeOS or Mujina instances.
 - Allow an optional isolated wall supply to fill a solar-power shortfall.
 - Report power-system telemetry and demonstrate basic coordinated control with a connected Bitaxe.
 - Provide an open development platform for experimenting with source-aware Bitcoin mining.
+
+## Documentation
+
+- [System requirements](docs/sourcerer_requirements.md)
+- [System architecture](docs/sourcerer_system_architecture.md)
+
+These are evolving design documents, not a completed implementation or validation report.

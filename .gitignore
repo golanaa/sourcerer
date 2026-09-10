@@ -26,3 +26,9 @@
 !/assets/
 /assets/*
 !/assets/sourcerer-system-overview.png
+
+# Published design documents; all other working docs remain local.
+!/docs/
+/docs/*
+!/docs/sourcerer_requirements.md
+!/docs/sourcerer_system_architecture.md
