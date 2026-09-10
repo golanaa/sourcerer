@@ -1,13 +1,7 @@
 # Sourcerer
 
 Sourcerer is a digitally controlled solar MPPT power source with miner-aware
-power budgeting and an optional wall-assist path. Hardware schematic capture
-and STM32G474 peripheral planning are active; PCB layout and closed-loop
-firmware are not yet complete.
-
-## v1 Concept
-
-![Sourcerer v1 system overview showing power paths, local control, and miner coordination](assets/sourcerer-system-overview.png)
+power budgeting and an optional wall-assist path.
 
 Sourcerer is being developed as an open reference platform for solar-powered
 Bitcoin mining. It prioritizes safe power-supply behavior while allowing the
@@ -15,6 +9,8 @@ converter and a connected Bitaxe to coordinate around available solar power.
 
 An optional isolated wall-supply path can maintain load operation when solar
 power is insufficient, while available solar power displaces wall power.
+
+![Sourcerer v1 system overview showing power paths, local control, and miner coordination](assets/sourcerer-system-overview.png)
 
 ## Backend-Neutral Miner Integration
 
