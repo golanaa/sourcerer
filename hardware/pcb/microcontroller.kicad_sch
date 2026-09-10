@@ -6294,7 +6294,7 @@
 			)
 		)
 	)
-	(global_label "TEMP_SPARE"
+	(global_label "LOAD_V_SENSE"
 		(shape input)
 		(at 121.92 139.7 180)
 		(effects
