@@ -1124,18 +1124,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "verified:P-00012"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
+		(symbol "verified:GRM188R71E104KA01D"
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(show_name no)
@@ -1159,182 +1150,195 @@
 				)
 			)
 			(property "Footprint" "verified:C_0603_1608Metric"
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(at 2.54 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "Datasheet" "https://pimapi.murata.com/public/api/pim/v1/products/search"
+				(at 2.54 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Description" "Manufacturer-independent 100 nF MLCC Spec; 25 V minimum, X7R, ±10%, 0603 (1608 Metric), SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "Description" "CAP, 100 nF, 0603, ±10%, X7R, 25 V DC"
+				(at 2.54 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Library_Status" "Prototype"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "IPN" "P-00061"
+				(at 2.54 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "IPN" "P-00012"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "IPN_Class" "Part"
+				(at 2.54 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "IPN_Class" "Spec"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "Manufacturer 1" "Murata"
+				(at 2.54 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Package" "0603 (1608 Metric)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "Manufacturer Part Number 1" "GRM188R71E104KA01D"
+				(at 2.54 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Package" "0603"
+				(at 2.54 0 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Type" "SMD"
+				(at 2.54 0 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Dielectric" "X7R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(at 2.54 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Voltage Rating" "25 V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "Voltage Rating" "25 Vdc"
+				(at 2.54 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Tolerance" "±10%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "Tolerance" "+/-10%"
+				(at 2.54 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Type" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "Operating Temperature" "-55 to +125 deg C"
+				(at 2.54 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Creator" "Steve"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "Rating Conditions" "Nominal 100 nF +/-10%, rated 25 Vdc; X7R temperature characteristic +/-15% over -55 to +125 deg C. Capacitance test frequency, AC amplitude, reference temperature and preconditioning are not supplied by retained sources. No exact DC-bias curve established; do not infer 100 nF effective capacitance at 25 V or combine tolerance and temperature ratings as a bias guarantee."
+				(at 2.54 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Rev_Creator" "golanaa"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "Library_Status" "Prototype"
+				(at 2.54 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "OCPM_Verified" "Yes"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(at 2.54 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Sym_Version" "0.1.1"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "Creator" "Steve"
+				(at 2.54 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Rev_Creator" "Steve"
+				(at 2.54 0 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Sym_Version" "0.1.0"
+				(at 2.54 0 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "FP_Version" "0.1.1"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(at 2.54 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "FP_Hash" "dece991b2937f49e"
+				(at 2.54 0 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Sym_Hash" "c25b734526883d9e"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -1345,7 +1349,7 @@
 					)
 				)
 			)
-			(property "Sym_Hash" "2542b0e3e5ffcb98"
+			(property "Package Detail" "0603 (1608 Metric)"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -1356,32 +1360,18 @@
 					)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
+			(pin_names
+				(offset 0.254)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
 			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
+			(pin_numbers
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
 			)
-			(symbol "P-00012_0_1"
+			(symbol "GRM188R71E104KA01D_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1393,7 +1383,8 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1404,7 +1395,7 @@
 					)
 				)
 			)
-			(symbol "P-00012_1_1"
+			(symbol "GRM188R71E104KA01D_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 1.524)
@@ -1442,20 +1433,10 @@
 					)
 				)
 			)
-			(embedded_fonts no)
 		)
-		(symbol "verified:P-00021"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
+		(symbol "verified:GRM21BR71E105KA99L"
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(show_name no)
@@ -1467,7 +1448,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1 µF"
+			(property "Value" "1uF"
 				(at 0.635 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1479,110 +1460,48 @@
 				)
 			)
 			(property "Footprint" "verified:C_0805_2012Metric"
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(at 0 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71E105KA99-01.pdf"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Description" "Manufacturer-independent 1 µF MLCC Spec; 25 V minimum, X7R, ±10%, 0805 (2012 Metric), SMT"
+			(property "Description" "CAP, 1 µF, 0805, ±10%, X7R, 25 V DC"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Library_Status" "Prototype"
+			(property "Manufacturer 1" "Murata"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "IPN" "P-00021"
+			(property "Manufacturer Part Number 1" "GRM21BR71E105KA99L"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "IPN_Class" "Spec"
+			(property "Package" "0805"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package" "0805 (2012 Metric)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dielectric" "X7R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage Rating" "25 V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "±10%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
@@ -1590,32 +1509,95 @@
 			)
 			(property "Type" "SMT"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Creator" "Steve"
+			(property "Tolerance" "+/-10%"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Rev_Creator" "Steve"
+			(property "Dielectric" "X7R"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage Rating" "25 VDC"
+				(at 0 0 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Operating Temperature" "-55 to +125 C"
+				(at 0 0 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Capacitance Measurement" "Room temperature; 1 kHz +/-10%; 1.0 +/-0.2 Vrms (spec p.2)"
+				(at 0 0 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temperature Characteristic" "+/-15% relative to 25 C over -55 to +125 C; no bias"
+				(at 0 0 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DC Bias Limitation" "Effective capacitance decreases with DC bias; exact bias curve not provided by this reference. 1uF is not guaranteed at application DC voltage. AC peak plus DC must remain within rated voltage."
+				(at 0 0 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Legacy Comparison" "Nominal 1uF,25V,X7R,+/-10%,0805 agree with legacy context; no controller qualification, effective-capacitance guarantee, or substitute approval inherited."
+				(at 0 0 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed C_0805_2012Metric footprint and generic model under the standard passive-package exception. Murata GRM21B nominal body 2.00 x 1.25 x 1.25 mm; unpolarized two end terminals. Retained IPC-style lands are 1.00 x 1.45 mm at X +/-0.95 mm (0.90 mm gap). Murata p26 recommends 0.6-0.8 x 1.2-1.4 mm lands with 1.2 mm gap. The shared footprint uses wider lands with the same 1.90 mm nominal pitch as the manufacturer-range midpoint. Selected as the existing reviewed generic 0805 package, not represented as an exact copy of Murata recommended geometry; assembly choice remains visible for exact-part review. Existing generic model bounding box 2.00 x 1.25 x 1.25 mm agrees with nominal body; idealized terminals and no internal construction. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred."
+				(at 0 0 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN" "P-00047"
+				(at 0 0 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN_Class" "Part"
+				(at 0 0 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
@@ -1623,16 +1605,37 @@
 			)
 			(property "OCPM_Verified" "Yes"
 				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Sym_Version" "0.1.0"
+			(property "Library_Status" "Prototype"
+				(at 0 0 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Creator" "Steve"
+				(at 0 0 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rev_Creator" "Steve"
+				(at 0 0 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sym_Version" "0.1.1"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -1665,7 +1668,7 @@
 					)
 				)
 			)
-			(property "Sym_Hash" "1c28230c936da672"
+			(property "Sym_Hash" "0a95b6754c0f7212"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -1676,9 +1679,9 @@
 					)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "Package Detail" "0805 (2012 Metric)"
 				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -1687,21 +1690,18 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
+			(pin_names
+				(offset 0.254)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
 			)
-			(symbol "P-00021_0_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(symbol "GRM21BR71E105KA99L_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1713,7 +1713,8 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1724,11 +1725,11 @@
 					)
 				)
 			)
-			(symbol "P-00021_1_1"
+			(symbol "GRM21BR71E105KA99L_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 1.524)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1746,7 +1747,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 1.524)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1762,9 +1763,8 @@
 					)
 				)
 			)
-			(embedded_fonts no)
 		)
-		(symbol "verified:P-00028"
+		(symbol "verified:C2012X7R1A106K125AC"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1809,7 +1809,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c2012x7r1a106k125ac.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1820,7 +1820,51 @@
 					)
 				)
 			)
-			(property "Description" "Manufacturer-independent 10 µF MLCC Spec; 10 V minimum, X7R, ±10%, 0805, SMT"
+			(property "Description" "10 µF ±10%, 10 V X7R multilayer ceramic capacitor, 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer 1" "TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number 1" "C2012X7R1A106K125AC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1832,6 +1876,94 @@
 				)
 			)
 			(property "Package" "0805 (2012 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Library_Status" "Prototype"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "OCPM_Verified" "Yes"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Creator" "Steve"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rev_Creator" "Steve"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN" "P-00026"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN_Class" "Part"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sym_Version" "0.1.0"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1875,94 +2007,6 @@
 					)
 				)
 			)
-			(property "Type" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Library_Status" "Prototype"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "OCPM_Verified" "Yes"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Creator" "Steve"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Rev_Creator" "Steve"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "IPN" "P-00028"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "IPN_Class" "Spec"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sym_Version" "0.1.0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "FP_Version" "0.1.1"
 				(at 0 0 0)
 				(show_name yes)
@@ -1985,7 +2029,7 @@
 					)
 				)
 			)
-			(property "Sym_Hash" "1d2a882f45307465"
+			(property "Sym_Hash" "4d08d39523531888"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -1996,29 +2040,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "P-00028_0_1"
+			(symbol "C2012X7R1A106K125AC_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -2044,7 +2066,7 @@
 					)
 				)
 			)
-			(symbol "P-00028_1_1"
+			(symbol "C2012X7R1A106K125AC_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 1.524)
@@ -2084,18 +2106,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "verified:P-00029"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
+		(symbol "verified:04025A6R8JAT2A"
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(show_name no)
@@ -2107,7 +2120,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "6.8 pF"
+			(property "Value" "6.8pF"
 				(at 0.635 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2119,129 +2132,184 @@
 				)
 			)
 			(property "Footprint" "verified:C_0402_1005Metric"
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(at 2.54 -1.27 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "Datasheet" "https://catalogs.kyocera-avx.com/SurfaceMount.pdf"
+				(at 2.54 -1.27 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Description" "Manufacturer-independent 6.8 pF MLCC Spec; 50 V minimum, C0G/NP0, ±5% maximum, 0402, SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "Description" "CAP, 6.8 pF, 0402, ±5%, C0G/NP0, 50 V DC"
+				(at 2.54 -1.27 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Package" "0402 (1005 Metric)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "Manufacturer 1" "KYOCERA AVX"
+				(at 2.54 -1.27 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Dielectric" "C0G/NP0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "Manufacturer Part Number 1" "04025A6R8JAT2A"
+				(at 2.54 -1.27 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Voltage Rating" "50 V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "IPN" "P-00048"
+				(at 2.54 -1.27 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Tolerance" "±5%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Type" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Library_Status" "Prototype"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+			(property "IPN_Class" "Part"
+				(at 2.54 -1.27 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
 			(property "OCPM_Verified" "Yes"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(at 2.54 -1.27 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Library_Status" "Prototype"
+				(at 2.54 -1.27 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
 			(property "Creator" "Steve"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
+				(at 2.54 -1.27 0)
+				(effects hide
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
 			(property "Rev_Creator" "Steve"
+				(at 2.54 -1.27 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "0402"
+				(at 2.54 -1.27 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric" "C0G (NP0)"
+				(at 2.54 -1.27 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage Rating" "50 VDC"
+				(at 2.54 -1.27 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "±5%"
+				(at 2.54 -1.27 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temperature Coefficient" "0 ±30 ppm/°C, -55 to +125 °C"
+				(at 2.54 -1.27 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Operating Temperature" "-55 to +125 °C"
+				(at 2.54 -1.27 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Capacitance Measurement" "1 MHz ±10%, 1.0 Vrms ±0.2 V; C <=1000 pF"
+				(at 2.54 -1.27 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Q Minimum" "536 for 6.8 pF (400+20C, C<30 pF); same capacitance test conditions"
+				(at 2.54 -1.27 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DC Bias" "No exact-part quantitative bias curve established. Nominal capacitance is not a guarantee at application DC bias."
+				(at 2.54 -1.27 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed C_0402_1005Metric footprint and generic model under the standard passive-package exception. KYOCERA AVX standard 0402 nominal 1.00 x 0.50 mm body, maximum height 0.56 mm; unpolarized end terminals. Retained IPC-style lands are 0.56 x 0.62 mm at X +/-0.48 mm, gap 0.40 mm. AVX mounting guide recommends 0.60 x 0.50 mm lands, gap 0.50 mm, overall 1.70 mm. Shared 0402 lands span 1.52 mm and are wider transversely. This is the existing reviewed generic package selection, not claimed identical to AVX recommended lands; exact-part assembly review remains required. Generic model is 1.00 x 0.50 x 0.50 mm. It is a nominal visualization, NOT the 0.56 mm maximum-height clearance envelope; use the exact datasheet for height clearance. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred."
+				(at 2.54 -1.27 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Migration Notes" "Nominal capacitance, voltage, dielectric, tolerance and size match historical P-00029 context. New exact-MPN Part; no inherited verification, stock guarantee, oscillator qualification, substitution approval or project changes."
+				(at 2.54 -1.27 0)
+				(effects hide
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "Capacitor"
 				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -2250,31 +2318,9 @@
 					)
 				)
 			)
-			(property "IPN" "P-00029"
+			(property "Sym_Version" "0.1.1"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "IPN_Class" "Spec"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sym_Version" "0.1.0"
-				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -2305,7 +2351,7 @@
 					)
 				)
 			)
-			(property "Sym_Hash" "47f600e61f8d8c20"
+			(property "Sym_Hash" "3290f6115e6b1cb0"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -2316,9 +2362,9 @@
 					)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "Package Detail" "0402 (1005 Metric)"
 				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -2327,21 +2373,18 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
+			(pin_names
+				(offset 0.254)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
 			)
-			(symbol "P-00029_0_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(symbol "04025A6R8JAT2A_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -2353,7 +2396,8 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -2364,11 +2408,11 @@
 					)
 				)
 			)
-			(symbol "P-00029_1_1"
+			(symbol "04025A6R8JAT2A_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 1.524)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2386,7 +2430,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 1.524)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2402,20 +2446,10 @@
 					)
 				)
 			)
-			(embedded_fonts no)
 		)
-		(symbol "verified:P-00045"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
+		(symbol "verified:RC0402JR-070RL"
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.54 0 90)
 				(show_name no)
@@ -2426,7 +2460,7 @@
 					)
 				)
 			)
-			(property "Value" "0 Ω"
+			(property "Value" "0R"
 				(at -2.54 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2437,237 +2471,249 @@
 				)
 			)
 			(property "Footprint" "verified:R_0402_1005Metric"
-				(at 1.016 -0.254 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Description" "0 Ω, 50 mΩ maximum initial resistance, 1 A minimum rated current, 62.5 mW package power class, Rated current minimum at 70°C; derate above 70°C. Maximum resistance is the initial resistance limit., 0402 (1005 Metric) SMT jumper Spec"
+			(property "Description" "RES, 0 Ω, 0402, jumper, <50 mΩ initial, 1 A rated, 2 A maximum"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Package" "0402 (1005 Metric)"
+			(property "Manufacturer 1" "Yageo"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Tolerance" "N/A (jumper; maximum resistance governs)"
+			(property "Manufacturer Part Number 1" "RC0402JR-070RL"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Temperature Coefficient" "N/A (jumper)"
+			(property "Package" "0402"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Power Rating" "62.5 mW"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Maximum Working Voltage" "N/A (jumper; rated current governs)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(hide yes)
 				)
 			)
 			(property "Type" "SMT"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Library_Status" "Prototype"
+			(property "Tolerance" "Not applicable (zero-ohm jumper; J is ordering code)"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "OCPM_Verified" "Yes"
+			(property "Temperature Coefficient" "Not applicable (zero-ohm jumper)"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Creator" "Steve"
+			(property "Resistance Limit" "<50 mOhm initial"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Rev_Creator" "Steve"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "IPN" "P-00045"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "IPN_Class" "Spec"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sym_Version" "0.1.1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "FP_Version" "0.1.1"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "FP_Hash" "cca674d32d743c69"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sym_Hash" "d8720a43ae1f727f"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Maximum Resistance" "50 mΩ"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(hide yes)
 				)
 			)
 			(property "Rated Current" "1 A"
 				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Rating Conditions" "Rated current minimum at 70°C; derate above 70°C. Maximum resistance is the initial resistance limit."
+			(property "Maximum Current" "2 A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power Rating" "0.0625 W standard package rating at 70 C ambient; not terminal-temperature rating"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Derating" "RC0402: ambient power curve 100% through 70 C, linearly to 0% at 155 C (Fig.10-1). Jumper current is limited by heating; use I <= 1 A * sqrt((155-Tamb)/85) above 70 C as derived conservative thermal interpretation, not a separately tabulated manufacturer current curve."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature" "-55 to +155 C; rated load derates above 70 C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Maximum Working Voltage" "Not applicable as resistor voltage rating; zero-ohm jumper is current-limited"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IPN" "P-00066"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IPN_Class" "Part"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Library_Status" "Prototype"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OCPM_Verified" "Yes"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Creator" "Steve"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rev_Creator" "Steve"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sym_Hash" "367b3db58b6621a4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sym_Version" "0.1.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FP_Version" "0.1.1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FP_Hash" "cca674d32d743c69"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Origin" "Manufacturer RC_L V14; reused reviewed managed R_0402_1005Metric generic package, not substitute approval"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package Detail" "0402 (1005 metric)"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -2678,9 +2724,9 @@
 					)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "Maximum Resistance" "<50 mΩ"
 				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -2689,9 +2735,9 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "Rated Current Detail" "1 A; apply ambient temperature derating above 70 C"
 				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -2700,10 +2746,40 @@
 					)
 				)
 			)
-			(symbol "P-00045_0_1"
+			(property "Maximum Current Detail" "2 A maximum; not the continuous rated current"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating Conditions" "70 °C ambient; derating above 70 °C; see thermal limits"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(pin_numbers
+				(hide yes)
+			)
+			(symbol "RC0402JR-070RL_0_1"
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 0 2.54)
+						(xy 0 2.286)
+						(xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2715,7 +2791,11 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 2.286)
+						(xy 1.016 1.905)
+						(xy 0 1.524)
+						(xy -1.016 1.143)
+						(xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -2727,7 +2807,11 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+						(xy 0 0.762)
+						(xy 1.016 0.381)
+						(xy 0 0)
+						(xy -1.016 -0.381)
+						(xy 0 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -2739,7 +2823,11 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+						(xy 0 -0.762)
+						(xy 1.016 -1.143)
+						(xy 0 -1.524)
+						(xy -1.016 -1.905)
+						(xy 0 -2.286)
 					)
 					(stroke
 						(width 0)
@@ -2751,7 +2839,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
+						(xy 0 -2.286)
+						(xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -2762,11 +2851,11 @@
 					)
 				)
 			)
-			(symbol "P-00045_1_1"
+			(symbol "RC0402JR-070RL_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2784,7 +2873,7 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2800,7 +2889,6 @@
 					)
 				)
 			)
-			(embedded_fonts no)
 		)
 		(symbol "verified:STM32G474CBT6TR"
 			(exclude_from_sim no)
@@ -6823,7 +6911,7 @@
 		)
 	)
 	(symbol
-		(lib_id "verified:P-00029")
+		(lib_id "verified:04025A6R8JAT2A")
 		(at 53.34 80.01 90)
 		(unit 1)
 		(body_style 1)
@@ -6844,7 +6932,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8 pF"
+		(property "Value" "6.8pF"
 			(at 53.34 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6865,7 +6953,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://catalogs.kyocera-avx.com/SurfaceMount.pdf"
 			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6876,7 +6964,7 @@
 				)
 			)
 		)
-		(property "Description" "Manufacturer-independent 6.8 pF MLCC Spec; 50 V minimum, C0G/NP0, ±5% maximum, 0402, SMT"
+		(property "Description" "CAP, 6.8 pF, 0402, ±5%, C0G/NP0, 50 V DC"
 			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6887,7 +6975,7 @@
 				)
 			)
 		)
-		(property "Package" "0402 (1005 Metric)"
+		(property "Package" "0402"
 			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6898,7 +6986,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "C0G/NP0"
+		(property "Dielectric" "C0G (NP0)"
 			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6909,7 +6997,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "50 V"
+		(property "Voltage Rating" "50 VDC"
 			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6931,7 +7019,7 @@
 				)
 			)
 		)
-		(property "Type" "SMT"
+		(property "Type" "Capacitor"
 			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6986,7 +7074,7 @@
 				)
 			)
 		)
-		(property "IPN" "P-00029"
+		(property "IPN" "P-00048"
 			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6997,7 +7085,7 @@
 				)
 			)
 		)
-		(property "IPN_Class" "Spec"
+		(property "IPN_Class" "Part"
 			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7008,7 +7096,7 @@
 				)
 			)
 		)
-		(property "Sym_Version" "0.1.0"
+		(property "Sym_Version" "0.1.1"
 			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7041,7 +7129,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "47f600e61f8d8c20"
+		(property "Sym_Hash" "3290f6115e6b1cb0"
 			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name yes)
@@ -7066,9 +7154,20 @@
 				)
 			)
 		)
+
+		(property "Manufacturer 1" "KYOCERA AVX" (at 53.34 80.01 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer Part Number 1" "04025A6R8JAT2A" (at 53.34 80.01 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Temperature Coefficient" "0 ±30 ppm/°C, -55 to +125 °C" (at 53.34 80.01 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Operating Temperature" "-55 to +125 °C" (at 53.34 80.01 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Capacitance Measurement" "1 MHz ±10%, 1.0 Vrms ±0.2 V; C <=1000 pF" (at 53.34 80.01 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Q Minimum" "536 for 6.8 pF (400+20C, C<30 pF); same capacitance test conditions" (at 53.34 80.01 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "DC Bias" "No exact-part quantitative bias curve established. Nominal capacitance is not a guarantee at application DC bias." (at 53.34 80.01 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed C_0402_1005Metric footprint and generic model under the standard passive-package exception. KYOCERA AVX standard 0402 nominal 1.00 x 0.50 mm body, maximum height 0.56 mm; unpolarized end terminals. Retained IPC-style lands are 0.56 x 0.62 mm at X +/-0.48 mm, gap 0.40 mm. AVX mounting guide recommends 0.60 x 0.50 mm lands, gap 0.50 mm, overall 1.70 mm. Shared 0402 lands span 1.52 mm and are wider transversely. This is the existing reviewed generic package selection, not claimed identical to AVX recommended lands; exact-part assembly review remains required. Generic model is 1.00 x 0.50 x 0.50 mm. It is a nominal visualization, NOT the 0.56 mm maximum-height clearance envelope; use the exact datasheet for height clearance. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred." (at 53.34 80.01 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Migration Notes" "Nominal capacitance, voltage, dielectric, tolerance and size match historical P-00029 context. New exact-MPN Part; no inherited verification, stock guarantee, oscillator qualification, substitution approval or project changes." (at 53.34 80.01 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package Detail" "0402 (1005 Metric)" (at 53.34 80.01 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
-		(lib_id "verified:P-00028")
+		(lib_id "verified:C2012X7R1A106K125AC")
 		(at 111.76 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -7111,7 +7210,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c2012x7r1a106k125ac.pdf"
 			(at 111.76 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7122,7 +7221,7 @@
 				)
 			)
 		)
-		(property "Description" "Manufacturer-independent 10 µF MLCC Spec; 10 V minimum, X7R, ±10%, 0805, SMT"
+		(property "Description" "10 µF ±10%, 10 V X7R multilayer ceramic capacitor, 0805"
 			(at 111.76 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7232,7 +7331,7 @@
 				)
 			)
 		)
-		(property "IPN" "P-00028"
+		(property "IPN" "P-00026"
 			(at 111.76 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7243,7 +7342,7 @@
 				)
 			)
 		)
-		(property "IPN_Class" "Spec"
+		(property "IPN_Class" "Part"
 			(at 111.76 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7287,7 +7386,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "1d2a882f45307465"
+		(property "Sym_Hash" "4d08d39523531888"
 			(at 111.76 44.45 0)
 			(hide yes)
 			(show_name yes)
@@ -7312,9 +7411,12 @@
 				)
 			)
 		)
+
+		(property "Manufacturer 1" "TDK" (at 111.76 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer Part Number 1" "C2012X7R1A106K125AC" (at 111.76 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
-		(lib_id "verified:P-00012")
+		(lib_id "verified:GRM188R71E104KA01D")
 		(at 175.26 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -7355,7 +7457,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pimapi.murata.com/public/api/pim/v1/products/search"
 			(at 175.26 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7366,7 +7468,7 @@
 				)
 			)
 		)
-		(property "Description" "Manufacturer-independent 100 nF MLCC Spec; 25 V minimum, X7R, ±10%, 0603 (1608 Metric), SMT"
+		(property "Description" "CAP, 100 nF, 0603, ±10%, X7R, 25 V DC"
 			(at 175.26 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7388,7 +7490,7 @@
 				)
 			)
 		)
-		(property "IPN" "P-00012"
+		(property "IPN" "P-00061"
 			(at 175.26 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7399,7 +7501,7 @@
 				)
 			)
 		)
-		(property "IPN_Class" "Spec"
+		(property "IPN_Class" "Part"
 			(at 175.26 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7410,7 +7512,7 @@
 				)
 			)
 		)
-		(property "Package" "0603 (1608 Metric)"
+		(property "Package" "0603"
 			(at 175.26 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7432,7 +7534,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "25 V"
+		(property "Voltage Rating" "25 Vdc"
 			(at 175.26 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7443,7 +7545,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "±10%"
+		(property "Tolerance" "+/-10%"
 			(at 175.26 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7454,7 +7556,7 @@
 				)
 			)
 		)
-		(property "Type" "SMT"
+		(property "Type" "SMD"
 			(at 175.26 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7476,7 +7578,7 @@
 				)
 			)
 		)
-		(property "Rev_Creator" "golanaa"
+		(property "Rev_Creator" "Steve"
 			(at 175.26 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7498,7 +7600,7 @@
 				)
 			)
 		)
-		(property "Sym_Version" "0.1.1"
+		(property "Sym_Version" "0.1.0"
 			(at 175.26 44.45 0)
 			(hide yes)
 			(show_name yes)
@@ -7531,7 +7633,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "2542b0e3e5ffcb98"
+		(property "Sym_Hash" "c25b734526883d9e"
 			(at 175.26 44.45 0)
 			(hide yes)
 			(show_name yes)
@@ -7542,28 +7644,8 @@
 				)
 			)
 		)
-		(property "ki_keywords" "cap capacitor"
-			(at 175.26 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 175.26 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+
+
 		(pin "1"
 			(uuid "b27e5ba5-a868-4e31-8f71-4111cb9fce4b")
 		)
@@ -7578,6 +7660,12 @@
 				)
 			)
 		)
+
+		(property "Manufacturer 1" "Murata" (at 175.26 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer Part Number 1" "GRM188R71E104KA01D" (at 175.26 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Operating Temperature" "-55 to +125 deg C" (at 175.26 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Rating Conditions" "Nominal 100 nF +/-10%, rated 25 Vdc; X7R temperature characteristic +/-15% over -55 to +125 deg C. Capacitance test frequency, AC amplitude, reference temperature and preconditioning are not supplied by retained sources. No exact DC-bias curve established; do not infer 100 nF effective capacitance at 25 V or combine tolerance and temperature ratings as a bias guarantee." (at 175.26 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package Detail" "0603 (1608 Metric)" (at 175.26 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7658,7 +7746,7 @@
 		)
 	)
 	(symbol
-		(lib_id "verified:P-00012")
+		(lib_id "verified:GRM188R71E104KA01D")
 		(at 121.92 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -7699,7 +7787,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pimapi.murata.com/public/api/pim/v1/products/search"
 			(at 121.92 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7710,7 +7798,7 @@
 				)
 			)
 		)
-		(property "Description" "Manufacturer-independent 100 nF MLCC Spec; 25 V minimum, X7R, ±10%, 0603 (1608 Metric), SMT"
+		(property "Description" "CAP, 100 nF, 0603, ±10%, X7R, 25 V DC"
 			(at 121.92 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7732,7 +7820,7 @@
 				)
 			)
 		)
-		(property "IPN" "P-00012"
+		(property "IPN" "P-00061"
 			(at 121.92 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7743,7 +7831,7 @@
 				)
 			)
 		)
-		(property "IPN_Class" "Spec"
+		(property "IPN_Class" "Part"
 			(at 121.92 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7754,7 +7842,7 @@
 				)
 			)
 		)
-		(property "Package" "0603 (1608 Metric)"
+		(property "Package" "0603"
 			(at 121.92 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7776,7 +7864,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "25 V"
+		(property "Voltage Rating" "25 Vdc"
 			(at 121.92 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7787,7 +7875,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "±10%"
+		(property "Tolerance" "+/-10%"
 			(at 121.92 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7798,7 +7886,7 @@
 				)
 			)
 		)
-		(property "Type" "SMT"
+		(property "Type" "SMD"
 			(at 121.92 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7820,7 +7908,7 @@
 				)
 			)
 		)
-		(property "Rev_Creator" "golanaa"
+		(property "Rev_Creator" "Steve"
 			(at 121.92 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7842,7 +7930,7 @@
 				)
 			)
 		)
-		(property "Sym_Version" "0.1.1"
+		(property "Sym_Version" "0.1.0"
 			(at 121.92 67.31 0)
 			(hide yes)
 			(show_name yes)
@@ -7875,7 +7963,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "2542b0e3e5ffcb98"
+		(property "Sym_Hash" "c25b734526883d9e"
 			(at 121.92 67.31 0)
 			(hide yes)
 			(show_name yes)
@@ -7886,28 +7974,8 @@
 				)
 			)
 		)
-		(property "ki_keywords" "cap capacitor"
-			(at 121.92 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 121.92 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+
+
 		(pin "1"
 			(uuid "5d52842d-18a5-4b38-8b18-6df2f43743bf")
 		)
@@ -7922,6 +7990,12 @@
 				)
 			)
 		)
+
+		(property "Manufacturer 1" "Murata" (at 121.92 67.31 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer Part Number 1" "GRM188R71E104KA01D" (at 121.92 67.31 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Operating Temperature" "-55 to +125 deg C" (at 121.92 67.31 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Rating Conditions" "Nominal 100 nF +/-10%, rated 25 Vdc; X7R temperature characteristic +/-15% over -55 to +125 deg C. Capacitance test frequency, AC amplitude, reference temperature and preconditioning are not supplied by retained sources. No exact DC-bias curve established; do not infer 100 nF effective capacitance at 25 V or combine tolerance and temperature ratings as a bias guarantee." (at 121.92 67.31 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package Detail" "0603 (1608 Metric)" (at 121.92 67.31 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -8532,7 +8606,7 @@
 		)
 	)
 	(symbol
-		(lib_id "verified:P-00021")
+		(lib_id "verified:GRM21BR71E105KA99L")
 		(at 111.76 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -8553,7 +8627,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 µF"
+		(property "Value" "1uF"
 			(at 105.156 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8575,7 +8649,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71E105KA99-01.pdf"
 			(at 111.76 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8586,7 +8660,7 @@
 				)
 			)
 		)
-		(property "Description" "Manufacturer-independent 1 µF MLCC Spec; 25 V minimum, X7R, ±10%, 0805 (2012 Metric), SMT"
+		(property "Description" "CAP, 1 µF, 0805, ±10%, X7R, 25 V DC"
 			(at 111.76 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8608,7 +8682,7 @@
 				)
 			)
 		)
-		(property "IPN" "P-00021"
+		(property "IPN" "P-00047"
 			(at 111.76 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8619,7 +8693,7 @@
 				)
 			)
 		)
-		(property "IPN_Class" "Spec"
+		(property "IPN_Class" "Part"
 			(at 111.76 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8630,7 +8704,7 @@
 				)
 			)
 		)
-		(property "Package" "0805 (2012 Metric)"
+		(property "Package" "0805"
 			(at 111.76 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8652,7 +8726,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "25 V"
+		(property "Voltage Rating" "25 VDC"
 			(at 111.76 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8663,7 +8737,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "±10%"
+		(property "Tolerance" "+/-10%"
 			(at 111.76 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8718,7 +8792,7 @@
 				)
 			)
 		)
-		(property "Sym_Version" "0.1.0"
+		(property "Sym_Version" "0.1.1"
 			(at 111.76 67.31 0)
 			(hide yes)
 			(show_name yes)
@@ -8751,7 +8825,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "1c28230c936da672"
+		(property "Sym_Hash" "0a95b6754c0f7212"
 			(at 111.76 67.31 0)
 			(hide yes)
 			(show_name yes)
@@ -8762,28 +8836,8 @@
 				)
 			)
 		)
-		(property "ki_keywords" "cap capacitor"
-			(at 111.76 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 111.76 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+
+
 		(pin "1"
 			(uuid "abe8a60e-b3f8-4583-b855-54177896806e")
 		)
@@ -8798,6 +8852,16 @@
 				)
 			)
 		)
+
+		(property "Manufacturer 1" "Murata" (at 111.76 67.31 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer Part Number 1" "GRM21BR71E105KA99L" (at 111.76 67.31 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Operating Temperature" "-55 to +125 C" (at 111.76 67.31 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Capacitance Measurement" "Room temperature; 1 kHz +/-10%; 1.0 +/-0.2 Vrms (spec p.2)" (at 111.76 67.31 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Temperature Characteristic" "+/-15% relative to 25 C over -55 to +125 C; no bias" (at 111.76 67.31 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "DC Bias Limitation" "Effective capacitance decreases with DC bias; exact bias curve not provided by this reference. 1uF is not guaranteed at application DC voltage. AC peak plus DC must remain within rated voltage." (at 111.76 67.31 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Legacy Comparison" "Nominal 1uF,25V,X7R,+/-10%,0805 agree with legacy context; no controller qualification, effective-capacitance guarantee, or substitute approval inherited." (at 111.76 67.31 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed C_0805_2012Metric footprint and generic model under the standard passive-package exception. Murata GRM21B nominal body 2.00 x 1.25 x 1.25 mm; unpolarized two end terminals. Retained IPC-style lands are 1.00 x 1.45 mm at X +/-0.95 mm (0.90 mm gap). Murata p26 recommends 0.6-0.8 x 1.2-1.4 mm lands with 1.2 mm gap. The shared footprint uses wider lands with the same 1.90 mm nominal pitch as the manufacturer-range midpoint. Selected as the existing reviewed generic 0805 package, not represented as an exact copy of Murata recommended geometry; assembly choice remains visible for exact-part review. Existing generic model bounding box 2.00 x 1.25 x 1.25 mm agrees with nominal body; idealized terminals and no internal construction. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred." (at 111.76 67.31 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package Detail" "0805 (2012 Metric)" (at 111.76 67.31 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "verified:FCM1608KF-301T05")
@@ -9089,7 +9153,7 @@
 		)
 	)
 	(symbol
-		(lib_id "verified:P-00021")
+		(lib_id "verified:GRM21BR71E105KA99L")
 		(at 184.15 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -9110,7 +9174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 µF"
+		(property "Value" "1uF"
 			(at 177.546 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9132,7 +9196,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71E105KA99-01.pdf"
 			(at 184.15 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9143,7 +9207,7 @@
 				)
 			)
 		)
-		(property "Description" "Manufacturer-independent 1 µF MLCC Spec; 25 V minimum, X7R, ±10%, 0805 (2012 Metric), SMT"
+		(property "Description" "CAP, 1 µF, 0805, ±10%, X7R, 25 V DC"
 			(at 184.15 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9165,7 +9229,7 @@
 				)
 			)
 		)
-		(property "IPN" "P-00021"
+		(property "IPN" "P-00047"
 			(at 184.15 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9176,7 +9240,7 @@
 				)
 			)
 		)
-		(property "IPN_Class" "Spec"
+		(property "IPN_Class" "Part"
 			(at 184.15 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9187,7 +9251,7 @@
 				)
 			)
 		)
-		(property "Package" "0805 (2012 Metric)"
+		(property "Package" "0805"
 			(at 184.15 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9209,7 +9273,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "25 V"
+		(property "Voltage Rating" "25 VDC"
 			(at 184.15 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9220,7 +9284,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "±10%"
+		(property "Tolerance" "+/-10%"
 			(at 184.15 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9275,7 +9339,7 @@
 				)
 			)
 		)
-		(property "Sym_Version" "0.1.0"
+		(property "Sym_Version" "0.1.1"
 			(at 184.15 44.45 0)
 			(hide yes)
 			(show_name yes)
@@ -9308,7 +9372,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "1c28230c936da672"
+		(property "Sym_Hash" "0a95b6754c0f7212"
 			(at 184.15 44.45 0)
 			(hide yes)
 			(show_name yes)
@@ -9319,28 +9383,8 @@
 				)
 			)
 		)
-		(property "ki_keywords" "cap capacitor"
-			(at 184.15 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 184.15 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+
+
 		(pin "1"
 			(uuid "118afd77-718d-4cfd-bfb5-bc985ca0cf98")
 		)
@@ -9355,6 +9399,16 @@
 				)
 			)
 		)
+
+		(property "Manufacturer 1" "Murata" (at 184.15 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer Part Number 1" "GRM21BR71E105KA99L" (at 184.15 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Operating Temperature" "-55 to +125 C" (at 184.15 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Capacitance Measurement" "Room temperature; 1 kHz +/-10%; 1.0 +/-0.2 Vrms (spec p.2)" (at 184.15 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Temperature Characteristic" "+/-15% relative to 25 C over -55 to +125 C; no bias" (at 184.15 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "DC Bias Limitation" "Effective capacitance decreases with DC bias; exact bias curve not provided by this reference. 1uF is not guaranteed at application DC voltage. AC peak plus DC must remain within rated voltage." (at 184.15 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Legacy Comparison" "Nominal 1uF,25V,X7R,+/-10%,0805 agree with legacy context; no controller qualification, effective-capacitance guarantee, or substitute approval inherited." (at 184.15 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed C_0805_2012Metric footprint and generic model under the standard passive-package exception. Murata GRM21B nominal body 2.00 x 1.25 x 1.25 mm; unpolarized two end terminals. Retained IPC-style lands are 1.00 x 1.45 mm at X +/-0.95 mm (0.90 mm gap). Murata p26 recommends 0.6-0.8 x 1.2-1.4 mm lands with 1.2 mm gap. The shared footprint uses wider lands with the same 1.90 mm nominal pitch as the manufacturer-range midpoint. Selected as the existing reviewed generic 0805 package, not represented as an exact copy of Murata recommended geometry; assembly choice remains visible for exact-part review. Existing generic model bounding box 2.00 x 1.25 x 1.25 mm agrees with nominal body; idealized terminals and no internal construction. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred." (at 184.15 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package Detail" "0805 (2012 Metric)" (at 184.15 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -9435,7 +9489,7 @@
 		)
 	)
 	(symbol
-		(lib_id "verified:P-00012")
+		(lib_id "verified:GRM188R71E104KA01D")
 		(at 121.92 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -9476,7 +9530,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pimapi.murata.com/public/api/pim/v1/products/search"
 			(at 121.92 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9487,7 +9541,7 @@
 				)
 			)
 		)
-		(property "Description" "Manufacturer-independent 100 nF MLCC Spec; 25 V minimum, X7R, ±10%, 0603 (1608 Metric), SMT"
+		(property "Description" "CAP, 100 nF, 0603, ±10%, X7R, 25 V DC"
 			(at 121.92 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9509,7 +9563,7 @@
 				)
 			)
 		)
-		(property "IPN" "P-00012"
+		(property "IPN" "P-00061"
 			(at 121.92 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9520,7 +9574,7 @@
 				)
 			)
 		)
-		(property "IPN_Class" "Spec"
+		(property "IPN_Class" "Part"
 			(at 121.92 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9531,7 +9585,7 @@
 				)
 			)
 		)
-		(property "Package" "0603 (1608 Metric)"
+		(property "Package" "0603"
 			(at 121.92 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9553,7 +9607,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "25 V"
+		(property "Voltage Rating" "25 Vdc"
 			(at 121.92 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9564,7 +9618,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "±10%"
+		(property "Tolerance" "+/-10%"
 			(at 121.92 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9575,7 +9629,7 @@
 				)
 			)
 		)
-		(property "Type" "SMT"
+		(property "Type" "SMD"
 			(at 121.92 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9597,7 +9651,7 @@
 				)
 			)
 		)
-		(property "Rev_Creator" "golanaa"
+		(property "Rev_Creator" "Steve"
 			(at 121.92 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9619,7 +9673,7 @@
 				)
 			)
 		)
-		(property "Sym_Version" "0.1.1"
+		(property "Sym_Version" "0.1.0"
 			(at 121.92 44.45 0)
 			(hide yes)
 			(show_name yes)
@@ -9652,7 +9706,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "2542b0e3e5ffcb98"
+		(property "Sym_Hash" "c25b734526883d9e"
 			(at 121.92 44.45 0)
 			(hide yes)
 			(show_name yes)
@@ -9663,28 +9717,8 @@
 				)
 			)
 		)
-		(property "ki_keywords" "cap capacitor"
-			(at 121.92 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 121.92 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+
+
 		(pin "1"
 			(uuid "232eca0e-2299-4a04-80d0-12f6fc857113")
 		)
@@ -9699,6 +9733,12 @@
 				)
 			)
 		)
+
+		(property "Manufacturer 1" "Murata" (at 121.92 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer Part Number 1" "GRM188R71E104KA01D" (at 121.92 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Operating Temperature" "-55 to +125 deg C" (at 121.92 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Rating Conditions" "Nominal 100 nF +/-10%, rated 25 Vdc; X7R temperature characteristic +/-15% over -55 to +125 deg C. Capacitance test frequency, AC amplitude, reference temperature and preconditioning are not supplied by retained sources. No exact DC-bias curve established; do not infer 100 nF effective capacitance at 25 V or combine tolerance and temperature ratings as a bias guarantee." (at 121.92 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package Detail" "0603 (1608 Metric)" (at 121.92 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -9936,7 +9976,7 @@
 		)
 	)
 	(symbol
-		(lib_id "verified:P-00045")
+		(lib_id "verified:RC0402JR-070RL")
 		(at 116.84 106.68 90)
 		(unit 1)
 		(body_style 1)
@@ -9956,7 +9996,7 @@
 				)
 			)
 		)
-		(property "Value" "0 Ω"
+		(property "Value" "0R"
 			(at 111.506 105.156 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9977,7 +10017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9988,7 +10028,7 @@
 				)
 			)
 		)
-		(property "Description" "0 Ω, 50 mΩ maximum initial resistance, 1 A minimum rated current, 62.5 mW package power class, Rated current minimum at 70°C; derate above 70°C. Maximum resistance is the initial resistance limit., 0402 (1005 Metric) SMT jumper Spec"
+		(property "Description" "RES, 0 Ω, 0402, jumper, <50 mΩ initial, 1 A rated, 2 A maximum"
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9999,7 +10039,7 @@
 				)
 			)
 		)
-		(property "Package" "0402 (1005 Metric)"
+		(property "Package" "0402"
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10010,7 +10050,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "N/A (jumper; maximum resistance governs)"
+		(property "Tolerance" "Not applicable (zero-ohm jumper; J is ordering code)"
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10021,7 +10061,7 @@
 				)
 			)
 		)
-		(property "Temperature Coefficient" "N/A (jumper)"
+		(property "Temperature Coefficient" "Not applicable (zero-ohm jumper)"
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10032,7 +10072,7 @@
 				)
 			)
 		)
-		(property "Power Rating" "62.5 mW"
+		(property "Power Rating" "0.0625 W standard package rating at 70 C ambient; not terminal-temperature rating"
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10043,7 +10083,7 @@
 				)
 			)
 		)
-		(property "Maximum Working Voltage" "N/A (jumper; rated current governs)"
+		(property "Maximum Working Voltage" "Not applicable as resistor voltage rating; zero-ohm jumper is current-limited"
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10109,7 +10149,7 @@
 				)
 			)
 		)
-		(property "IPN" "P-00045"
+		(property "IPN" "P-00066"
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10120,7 +10160,7 @@
 				)
 			)
 		)
-		(property "IPN_Class" "Spec"
+		(property "IPN_Class" "Part"
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10131,7 +10171,7 @@
 				)
 			)
 		)
-		(property "Sym_Version" "0.1.1"
+		(property "Sym_Version" "0.1.0"
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10164,7 +10204,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "d8720a43ae1f727f"
+		(property "Sym_Hash" "367b3db58b6621a4"
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name yes)
@@ -10175,7 +10215,7 @@
 				)
 			)
 		)
-		(property "Maximum Resistance" "50 mΩ"
+		(property "Maximum Resistance" "<50 mΩ"
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name yes)
@@ -10197,7 +10237,7 @@
 				)
 			)
 		)
-		(property "Rating Conditions" "Rated current minimum at 70°C; derate above 70°C. Maximum resistance is the initial resistance limit."
+		(property "Rating Conditions" "70 °C ambient; derating above 70 °C; see thermal limits"
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name yes)
@@ -10222,9 +10262,20 @@
 				)
 			)
 		)
+
+		(property "Manufacturer 1" "Yageo" (at 116.84 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer Part Number 1" "RC0402JR-070RL" (at 116.84 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Resistance Limit" "<50 mOhm initial" (at 116.84 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Maximum Current" "2 A" (at 116.84 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Derating" "RC0402: ambient power curve 100% through 70 C, linearly to 0% at 155 C (Fig.10-1). Jumper current is limited by heating; use I <= 1 A * sqrt((155-Tamb)/85) above 70 C as derived conservative thermal interpretation, not a separately tabulated manufacturer current curve." (at 116.84 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Operating Temperature" "-55 to +155 C; rated load derates above 70 C" (at 116.84 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Part Origin" "Manufacturer RC_L V14; reused reviewed managed R_0402_1005Metric generic package, not substitute approval" (at 116.84 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package Detail" "0402 (1005 metric)" (at 116.84 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Rated Current Detail" "1 A; apply ambient temperature derating above 70 C" (at 116.84 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Maximum Current Detail" "2 A maximum; not the continuous rated current" (at 116.84 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
-		(lib_id "verified:P-00012")
+		(lib_id "verified:GRM188R71E104KA01D")
 		(at 140.97 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -10265,7 +10316,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pimapi.murata.com/public/api/pim/v1/products/search"
 			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10276,7 +10327,7 @@
 				)
 			)
 		)
-		(property "Description" "Manufacturer-independent 100 nF MLCC Spec; 25 V minimum, X7R, ±10%, 0603 (1608 Metric), SMT"
+		(property "Description" "CAP, 100 nF, 0603, ±10%, X7R, 25 V DC"
 			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10298,7 +10349,7 @@
 				)
 			)
 		)
-		(property "IPN" "P-00012"
+		(property "IPN" "P-00061"
 			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10309,7 +10360,7 @@
 				)
 			)
 		)
-		(property "IPN_Class" "Spec"
+		(property "IPN_Class" "Part"
 			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10320,7 +10371,7 @@
 				)
 			)
 		)
-		(property "Package" "0603 (1608 Metric)"
+		(property "Package" "0603"
 			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10342,7 +10393,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "25 V"
+		(property "Voltage Rating" "25 Vdc"
 			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10353,7 +10404,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "±10%"
+		(property "Tolerance" "+/-10%"
 			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10364,7 +10415,7 @@
 				)
 			)
 		)
-		(property "Type" "SMT"
+		(property "Type" "SMD"
 			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10386,7 +10437,7 @@
 				)
 			)
 		)
-		(property "Rev_Creator" "golanaa"
+		(property "Rev_Creator" "Steve"
 			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10408,7 +10459,7 @@
 				)
 			)
 		)
-		(property "Sym_Version" "0.1.1"
+		(property "Sym_Version" "0.1.0"
 			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name yes)
@@ -10441,7 +10492,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "2542b0e3e5ffcb98"
+		(property "Sym_Hash" "c25b734526883d9e"
 			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name yes)
@@ -10452,28 +10503,8 @@
 				)
 			)
 		)
-		(property "ki_keywords" "cap capacitor"
-			(at 140.97 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 140.97 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+
+
 		(pin "1"
 			(uuid "3ebda5e2-fee9-416c-bc80-45cbe3306a51")
 		)
@@ -10488,9 +10519,15 @@
 				)
 			)
 		)
+
+		(property "Manufacturer 1" "Murata" (at 140.97 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer Part Number 1" "GRM188R71E104KA01D" (at 140.97 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Operating Temperature" "-55 to +125 deg C" (at 140.97 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Rating Conditions" "Nominal 100 nF +/-10%, rated 25 Vdc; X7R temperature characteristic +/-15% over -55 to +125 deg C. Capacitance test frequency, AC amplitude, reference temperature and preconditioning are not supplied by retained sources. No exact DC-bias curve established; do not infer 100 nF effective capacitance at 25 V or combine tolerance and temperature ratings as a bias guarantee." (at 140.97 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package Detail" "0603 (1608 Metric)" (at 140.97 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
-		(lib_id "verified:P-00012")
+		(lib_id "verified:GRM188R71E104KA01D")
 		(at 116.84 83.82 270)
 		(unit 1)
 		(body_style 1)
@@ -10531,7 +10568,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pimapi.murata.com/public/api/pim/v1/products/search"
 			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10542,7 +10579,7 @@
 				)
 			)
 		)
-		(property "Description" "Manufacturer-independent 100 nF MLCC Spec; 25 V minimum, X7R, ±10%, 0603 (1608 Metric), SMT"
+		(property "Description" "CAP, 100 nF, 0603, ±10%, X7R, 25 V DC"
 			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10564,7 +10601,7 @@
 				)
 			)
 		)
-		(property "IPN" "P-00012"
+		(property "IPN" "P-00061"
 			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10575,7 +10612,7 @@
 				)
 			)
 		)
-		(property "IPN_Class" "Spec"
+		(property "IPN_Class" "Part"
 			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10586,7 +10623,7 @@
 				)
 			)
 		)
-		(property "Package" "0603 (1608 Metric)"
+		(property "Package" "0603"
 			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10608,7 +10645,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "25 V"
+		(property "Voltage Rating" "25 Vdc"
 			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10619,7 +10656,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "±10%"
+		(property "Tolerance" "+/-10%"
 			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10630,7 +10667,7 @@
 				)
 			)
 		)
-		(property "Type" "SMT"
+		(property "Type" "SMD"
 			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10652,7 +10689,7 @@
 				)
 			)
 		)
-		(property "Rev_Creator" "golanaa"
+		(property "Rev_Creator" "Steve"
 			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10674,7 +10711,7 @@
 				)
 			)
 		)
-		(property "Sym_Version" "0.1.1"
+		(property "Sym_Version" "0.1.0"
 			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name yes)
@@ -10707,7 +10744,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "2542b0e3e5ffcb98"
+		(property "Sym_Hash" "c25b734526883d9e"
 			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name yes)
@@ -10718,28 +10755,8 @@
 				)
 			)
 		)
-		(property "ki_keywords" "cap capacitor"
-			(at 116.84 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 116.84 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+
+
 		(pin "1"
 			(uuid "393afd26-4854-4c62-968f-e855d5bfdf4a")
 		)
@@ -10754,9 +10771,15 @@
 				)
 			)
 		)
+
+		(property "Manufacturer 1" "Murata" (at 116.84 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer Part Number 1" "GRM188R71E104KA01D" (at 116.84 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Operating Temperature" "-55 to +125 deg C" (at 116.84 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Rating Conditions" "Nominal 100 nF +/-10%, rated 25 Vdc; X7R temperature characteristic +/-15% over -55 to +125 deg C. Capacitance test frequency, AC amplitude, reference temperature and preconditioning are not supplied by retained sources. No exact DC-bias curve established; do not infer 100 nF effective capacitance at 25 V or combine tolerance and temperature ratings as a bias guarantee." (at 116.84 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package Detail" "0603 (1608 Metric)" (at 116.84 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
-		(lib_id "verified:P-00045")
+		(lib_id "verified:RC0402JR-070RL")
 		(at 116.84 109.22 90)
 		(unit 1)
 		(body_style 1)
@@ -10776,7 +10799,7 @@
 				)
 			)
 		)
-		(property "Value" "0 Ω"
+		(property "Value" "0R"
 			(at 111.506 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10797,7 +10820,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10808,7 +10831,7 @@
 				)
 			)
 		)
-		(property "Description" "0 Ω, 50 mΩ maximum initial resistance, 1 A minimum rated current, 62.5 mW package power class, Rated current minimum at 70°C; derate above 70°C. Maximum resistance is the initial resistance limit., 0402 (1005 Metric) SMT jumper Spec"
+		(property "Description" "RES, 0 Ω, 0402, jumper, <50 mΩ initial, 1 A rated, 2 A maximum"
 			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10819,7 +10842,7 @@
 				)
 			)
 		)
-		(property "Package" "0402 (1005 Metric)"
+		(property "Package" "0402"
 			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10830,7 +10853,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "N/A (jumper; maximum resistance governs)"
+		(property "Tolerance" "Not applicable (zero-ohm jumper; J is ordering code)"
 			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10841,7 +10864,7 @@
 				)
 			)
 		)
-		(property "Temperature Coefficient" "N/A (jumper)"
+		(property "Temperature Coefficient" "Not applicable (zero-ohm jumper)"
 			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10852,7 +10875,7 @@
 				)
 			)
 		)
-		(property "Power Rating" "62.5 mW"
+		(property "Power Rating" "0.0625 W standard package rating at 70 C ambient; not terminal-temperature rating"
 			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10863,7 +10886,7 @@
 				)
 			)
 		)
-		(property "Maximum Working Voltage" "N/A (jumper; rated current governs)"
+		(property "Maximum Working Voltage" "Not applicable as resistor voltage rating; zero-ohm jumper is current-limited"
 			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10929,7 +10952,7 @@
 				)
 			)
 		)
-		(property "IPN" "P-00045"
+		(property "IPN" "P-00066"
 			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10940,7 +10963,7 @@
 				)
 			)
 		)
-		(property "IPN_Class" "Spec"
+		(property "IPN_Class" "Part"
 			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10951,7 +10974,7 @@
 				)
 			)
 		)
-		(property "Sym_Version" "0.1.1"
+		(property "Sym_Version" "0.1.0"
 			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10984,7 +11007,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "d8720a43ae1f727f"
+		(property "Sym_Hash" "367b3db58b6621a4"
 			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name yes)
@@ -10995,7 +11018,7 @@
 				)
 			)
 		)
-		(property "Maximum Resistance" "50 mΩ"
+		(property "Maximum Resistance" "<50 mΩ"
 			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name yes)
@@ -11017,7 +11040,7 @@
 				)
 			)
 		)
-		(property "Rating Conditions" "Rated current minimum at 70°C; derate above 70°C. Maximum resistance is the initial resistance limit."
+		(property "Rating Conditions" "70 °C ambient; derating above 70 °C; see thermal limits"
 			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name yes)
@@ -11042,9 +11065,20 @@
 				)
 			)
 		)
+
+		(property "Manufacturer 1" "Yageo" (at 116.84 109.22 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer Part Number 1" "RC0402JR-070RL" (at 116.84 109.22 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Resistance Limit" "<50 mOhm initial" (at 116.84 109.22 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Maximum Current" "2 A" (at 116.84 109.22 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Derating" "RC0402: ambient power curve 100% through 70 C, linearly to 0% at 155 C (Fig.10-1). Jumper current is limited by heating; use I <= 1 A * sqrt((155-Tamb)/85) above 70 C as derived conservative thermal interpretation, not a separately tabulated manufacturer current curve." (at 116.84 109.22 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Operating Temperature" "-55 to +155 C; rated load derates above 70 C" (at 116.84 109.22 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Part Origin" "Manufacturer RC_L V14; reused reviewed managed R_0402_1005Metric generic package, not substitute approval" (at 116.84 109.22 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package Detail" "0402 (1005 metric)" (at 116.84 109.22 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Rated Current Detail" "1 A; apply ambient temperature derating above 70 C" (at 116.84 109.22 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Maximum Current Detail" "2 A maximum; not the continuous rated current" (at 116.84 109.22 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
-		(lib_id "verified:P-00029")
+		(lib_id "verified:04025A6R8JAT2A")
 		(at 53.34 97.79 90)
 		(unit 1)
 		(body_style 1)
@@ -11064,7 +11098,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8 pF"
+		(property "Value" "6.8pF"
 			(at 53.086 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11085,7 +11119,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://catalogs.kyocera-avx.com/SurfaceMount.pdf"
 			(at 53.34 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11096,7 +11130,7 @@
 				)
 			)
 		)
-		(property "Description" "Manufacturer-independent 6.8 pF MLCC Spec; 50 V minimum, C0G/NP0, ±5% maximum, 0402, SMT"
+		(property "Description" "CAP, 6.8 pF, 0402, ±5%, C0G/NP0, 50 V DC"
 			(at 53.34 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11107,7 +11141,7 @@
 				)
 			)
 		)
-		(property "Package" "0402 (1005 Metric)"
+		(property "Package" "0402"
 			(at 53.34 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11118,7 +11152,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "C0G/NP0"
+		(property "Dielectric" "C0G (NP0)"
 			(at 53.34 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11129,7 +11163,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "50 V"
+		(property "Voltage Rating" "50 VDC"
 			(at 53.34 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11151,7 +11185,7 @@
 				)
 			)
 		)
-		(property "Type" "SMT"
+		(property "Type" "Capacitor"
 			(at 53.34 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11206,7 +11240,7 @@
 				)
 			)
 		)
-		(property "IPN" "P-00029"
+		(property "IPN" "P-00048"
 			(at 53.34 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11217,7 +11251,7 @@
 				)
 			)
 		)
-		(property "IPN_Class" "Spec"
+		(property "IPN_Class" "Part"
 			(at 53.34 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11228,7 +11262,7 @@
 				)
 			)
 		)
-		(property "Sym_Version" "0.1.0"
+		(property "Sym_Version" "0.1.1"
 			(at 53.34 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11261,7 +11295,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "47f600e61f8d8c20"
+		(property "Sym_Hash" "3290f6115e6b1cb0"
 			(at 53.34 97.79 0)
 			(hide yes)
 			(show_name yes)
@@ -11286,9 +11320,20 @@
 				)
 			)
 		)
+
+		(property "Manufacturer 1" "KYOCERA AVX" (at 53.34 97.79 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer Part Number 1" "04025A6R8JAT2A" (at 53.34 97.79 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Temperature Coefficient" "0 ±30 ppm/°C, -55 to +125 °C" (at 53.34 97.79 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Operating Temperature" "-55 to +125 °C" (at 53.34 97.79 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Capacitance Measurement" "1 MHz ±10%, 1.0 Vrms ±0.2 V; C <=1000 pF" (at 53.34 97.79 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Q Minimum" "536 for 6.8 pF (400+20C, C<30 pF); same capacitance test conditions" (at 53.34 97.79 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "DC Bias" "No exact-part quantitative bias curve established. Nominal capacitance is not a guarantee at application DC bias." (at 53.34 97.79 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed C_0402_1005Metric footprint and generic model under the standard passive-package exception. KYOCERA AVX standard 0402 nominal 1.00 x 0.50 mm body, maximum height 0.56 mm; unpolarized end terminals. Retained IPC-style lands are 0.56 x 0.62 mm at X +/-0.48 mm, gap 0.40 mm. AVX mounting guide recommends 0.60 x 0.50 mm lands, gap 0.50 mm, overall 1.70 mm. Shared 0402 lands span 1.52 mm and are wider transversely. This is the existing reviewed generic package selection, not claimed identical to AVX recommended lands; exact-part assembly review remains required. Generic model is 1.00 x 0.50 x 0.50 mm. It is a nominal visualization, NOT the 0.56 mm maximum-height clearance envelope; use the exact datasheet for height clearance. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred." (at 53.34 97.79 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Migration Notes" "Nominal capacitance, voltage, dielectric, tolerance and size match historical P-00029 context. New exact-MPN Part; no inherited verification, stock guarantee, oscillator qualification, substitution approval or project changes." (at 53.34 97.79 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package Detail" "0402 (1005 Metric)" (at 53.34 97.79 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
-		(lib_id "verified:P-00012")
+		(lib_id "verified:GRM188R71E104KA01D")
 		(at 132.08 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -11329,7 +11374,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pimapi.murata.com/public/api/pim/v1/products/search"
 			(at 132.08 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11340,7 +11385,7 @@
 				)
 			)
 		)
-		(property "Description" "Manufacturer-independent 100 nF MLCC Spec; 25 V minimum, X7R, ±10%, 0603 (1608 Metric), SMT"
+		(property "Description" "CAP, 100 nF, 0603, ±10%, X7R, 25 V DC"
 			(at 132.08 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11362,7 +11407,7 @@
 				)
 			)
 		)
-		(property "IPN" "P-00012"
+		(property "IPN" "P-00061"
 			(at 132.08 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11373,7 +11418,7 @@
 				)
 			)
 		)
-		(property "IPN_Class" "Spec"
+		(property "IPN_Class" "Part"
 			(at 132.08 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11384,7 +11429,7 @@
 				)
 			)
 		)
-		(property "Package" "0603 (1608 Metric)"
+		(property "Package" "0603"
 			(at 132.08 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11406,7 +11451,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "25 V"
+		(property "Voltage Rating" "25 Vdc"
 			(at 132.08 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11417,7 +11462,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "±10%"
+		(property "Tolerance" "+/-10%"
 			(at 132.08 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11428,7 +11473,7 @@
 				)
 			)
 		)
-		(property "Type" "SMT"
+		(property "Type" "SMD"
 			(at 132.08 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11450,7 +11495,7 @@
 				)
 			)
 		)
-		(property "Rev_Creator" "golanaa"
+		(property "Rev_Creator" "Steve"
 			(at 132.08 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11472,7 +11517,7 @@
 				)
 			)
 		)
-		(property "Sym_Version" "0.1.1"
+		(property "Sym_Version" "0.1.0"
 			(at 132.08 44.45 0)
 			(hide yes)
 			(show_name yes)
@@ -11505,7 +11550,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "2542b0e3e5ffcb98"
+		(property "Sym_Hash" "c25b734526883d9e"
 			(at 132.08 44.45 0)
 			(hide yes)
 			(show_name yes)
@@ -11516,28 +11561,8 @@
 				)
 			)
 		)
-		(property "ki_keywords" "cap capacitor"
-			(at 132.08 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 132.08 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+
+
 		(pin "1"
 			(uuid "702106a3-0d52-420c-a7e9-782193c35624")
 		)
@@ -11552,6 +11577,12 @@
 				)
 			)
 		)
+
+		(property "Manufacturer 1" "Murata" (at 132.08 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer Part Number 1" "GRM188R71E104KA01D" (at 132.08 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Operating Temperature" "-55 to +125 deg C" (at 132.08 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Rating Conditions" "Nominal 100 nF +/-10%, rated 25 Vdc; X7R temperature characteristic +/-15% over -55 to +125 deg C. Capacitance test frequency, AC amplitude, reference temperature and preconditioning are not supplied by retained sources. No exact DC-bias curve established; do not infer 100 nF effective capacitance at 25 V or combine tolerance and temperature ratings as a bias guarantee." (at 132.08 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package Detail" "0603 (1608 Metric)" (at 132.08 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(sheet_instances
 		(path "/"

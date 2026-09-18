@@ -91,3 +91,8 @@ empty layout scaffold, so assigned footprints must still be obtained from the
 shared library when populating it. The CubeMX file is peripheral planning, not
 completed closed-loop firmware. Existing circuit/ERC findings remain design
 work; no circuitry or approval states are changed by this directory setup.
+
+## September 18 passive refresh
+
+The pinned library and placed passive identities are updated together. See the
+[replacement list and before/after checks](PASSIVE_REFRESH_2026-09-18.md).
