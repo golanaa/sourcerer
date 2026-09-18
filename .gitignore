@@ -10,6 +10,7 @@
 /hardware/*
 !/hardware/.gitkeep
 !/hardware/README.md
+!/hardware/PASSIVE_REFRESH_2026-09-18.md
 !/hardware/ocpm-library.lock
 !/hardware/pcb/
 /hardware/pcb/*
