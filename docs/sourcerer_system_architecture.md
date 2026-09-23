@@ -8,12 +8,19 @@ editable diagrams name unpublished project artifacts.
 PB13 / `ADC3_IN5` in both the schematic and IOC. A fresh MCU netlist confirms
 U4 pin 27 (PB13) as the only node on that net. The delivered-load
 divider/filter/protection circuit and acquisition-time validation remain pending.
-All IOC conversion and timing settings are unchanged. The external INA241
-reference buffer is selected but not yet present in the synced power schematic.
+All IOC conversion and timing settings are unchanged.
+
+**Precision-current implementation update — 2026-09-22:** R10 is now Yageo
+PK2512FKE570R005L (5 mΩ), with INA241A2 U6 on 3V3. U5 OPA333 buffers the
+0.1% 40 kΩ / 10 kΩ divider to both REF pins. R16 1 kΩ / C41 100 nF filters
+OUT before PA7 (nominal 1.59 kHz). This is averaged-current telemetry, MPPT
+and slower supervision, not the assumed fast current-loop or severe-OCP path.
+Connectivity is checked; ADC setup, Kelvin/test access and bench qualification
+remain open. No new rated limits or protection policy are selected here.
 
 _Status: reviewed draft, aligned with the approved v1 rated electrical envelope_
 
-**Documentation review:** 2026-09-10 — current filenames, implementation notes, and publication state reconciled; no new electrical limits or protection policy selected.
+**Documentation review:** 2026-09-22 — saved precision-channel implementation and role reconciled; no new electrical limits or protection policy selected.
 
 ## 1. Purpose
 
@@ -301,7 +308,10 @@ reject that recovery and switching transients.
 PV voltage PA0 and PV current PA1 may be acquired sequentially on ADC1;
 simultaneous PV sampling is **not required**, per Tyler's 2026-09-10 decision.
 Filtering, sample spacing, and averaging must still support calibrated PV
-power/source telemetry. Preserve the separate-ADC PA2/PA7 fast-control pair.
+power/source telemetry. Preserve the separate-ADC PA2/PA7 allocation, without
+assuming the filtered PA7 channel runs the fast regulation loop. Voltage-mode
+control remains the working direction. The proposed current-channel cadence
+must not slow voltage feedback.
 
 PB13 / ADC3_IN5 is assigned in schematic and IOC to delivered-load voltage (`LOAD_V_SENSE`),
 replacing optional TEMP_SPARE. PA3 remains TEMP_CONVERTER. This removes the
@@ -310,11 +320,12 @@ work. The fresh MCU netlist confirms LOAD_V_SENSE at U4 pin 27 (PB13),
 with no sensing circuitry yet connected to that net.
 Any direct total-load-current channel remains a separate implementation choice.
 
-The INA241 reference will use an **external buffer**, not internal OPAMP2.
-PA6 ZCS_DAC and PB14 wall-current sensing remain allocated. Select and validate
-the buffer circuit, nominal 0.5 V reference, offset/headroom, stability, and
-startup behavior before treating the precision channel as complete. The
-external buffer is not yet present in the 2026-09-10 synced power schematic.
+The INA241 reference uses the placed **external OPA333 buffer**, not internal
+OPAMP2. PA6 ZCS_DAC and PB14 wall-current sensing remain allocated. The saved
+circuit has a 0.1% 40 kΩ / 10 kΩ divider from 2.5 V, input filtering, supply
+bypassing and unity-gain feedback to both INA241 REF pins. Nominal 0.5 V
+connectivity is checked; offset/headroom, stability and startup behavior still
+need qualification before treating the precision channel as complete.
 
 Wall voltage, wall current, and combined-bus voltage remain supervisory ADC4
 measurements on PB12/PB14/PB15. The updated IOC pin allocation and ADC sequence
@@ -636,7 +647,7 @@ validated firmware/toolchain instructions, and release packaging remain open.
 Questions to resolve in later architecture/design passes:
 
 - After the initial STM32G474 LQFP48 pinout/CubeMX seed check, do the detailed HRTIM, ADC trigger, comparator/op-amp, and hardware-shutdown routes remain comfortable?
-- Which remaining PV-source and wall-sensing parts meet their requirements, and does the selected SEWF3920 + INA241A2 MPPT-inductor channel meet its reference, headroom, accuracy, and ripple-response targets?
+- Which remaining PV-source and wall-sensing parts meet their requirements, and does the placed PK2512FKE570R005L + INA241A2 MPPT-inductor channel meet its reference, headroom, accuracy, and ripple-response targets?
 - Does the independent predictive low-side OCP path meet the one-pulse bound, or is an alternative qualified fast-protection path required? The precision INA241 channel is not the assumed severe-OCP path.
 - Can the final STM32G474 pinout support an optional future dual-internal-op-amp inductor-current experiment without compromising required functions?
 - After the common load-disconnect/protection architecture is selected, should total load current be measured directly or derived from validated branch measurements?
