@@ -6,7 +6,7 @@ editable diagrams name unpublished project artifacts.
 
 _Status: revised collaborative draft_
 
-**Documentation review:** 2026-09-10 — project naming and links updated; requirement IDs, normative statements, and numeric limits unchanged.
+**Documentation review:** 2026-09-23 — added approved REQ-SAFE-036 (high-side-short load protection), REQ-SAFE-037 (programmable output OVP), REQ-SAFE-038 (controlled output discharge), and REQ-CFG-025 (live output-voltage adjustment); existing requirement IDs and rated electrical limits unchanged.
 
 ## 1. Purpose
 
@@ -410,6 +410,48 @@ The system shall retain the last asserted fault class and fault type for diagnos
 Note:
 - exact numeric input-side thresholds and detailed fault taxonomy will be refined in later architecture/design documents
 
+### 8.6 Buck high-side short-circuit fault
+
+**REQ-SAFE-036**
+
+The system shall protect the downstream load against overvoltage caused by a
+shorted buck high-side FET. The common output protection shall disconnect the
+load through a hardware overvoltage response independent of firmware execution
+and buck PWM shutdown, and shall withstand the resulting PV fault-voltage
+exposure within the documented input operating and survival envelope.
+
+The allowable load-voltage/time envelope, trip threshold, response-time budget,
+and coordinated upstream protection remain to be defined and verified. This
+requirement does not establish those numeric limits or select a device.
+
+### 8.7 Programmable output overvoltage protection
+
+**REQ-SAFE-037**
+
+The output overvoltage trip threshold shall be programmable so protection can
+be configured for the intended output voltage and load. Programmability shall
+preserve the firmware-independent hardware trip required by REQ-SAFE-036 and
+the latched output-overvoltage fault behavior required by REQ-SAFE-031.
+
+The threshold range, resolution, default, numeric margin, programming mechanism,
+and safe update sequence remain detailed-design work. Automatic setpoint
+tracking and a separately exposed supervisory OVP setting are not selected by
+this requirement.
+
+### 8.8 Controlled output discharge
+
+**REQ-SAFE-038**
+
+When output is disabled, the system shall provide controlled discharge of
+load-side capacitance after the common load disconnect isolates the load from
+the combined source bus. The discharge path shall be switched out during
+normal powered operation; it shall not discharge the combined source bus.
+
+The provisional design target is a load-side voltage below 1 V within 1 second
+from an initial 16 V with the assumed 2,200 µF capacitive load. This target is
+not a qualified load-capacitance limit; implementation and verification remain
+detailed-design work.
+
 ---
 
 ## 9. Interface and telemetry requirements
@@ -612,6 +654,15 @@ A runtime command that would set output voltage, output current limit, or output
 
 **REQ-CFG-024**  
 When a runtime command is rejected, the system shall report the rejection and identify the invalid setting or applicable limit.
+
+**REQ-CFG-025**
+
+Under valid source and load conditions, the system shall support controlled
+live changes of the commanded output voltage without deliberately disconnecting
+or power-cycling the load as part of the normal adjustment sequence. Voltage
+transitions shall preserve the applicable rated limits, output protection and
+wall-source compatibility requirements. This does not override required fault
+shutdown or permit an incompatible wall source to energize the load.
 
 ---
 

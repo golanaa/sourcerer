@@ -20,7 +20,7 @@ remain open. No new rated limits or protection policy are selected here.
 
 _Status: reviewed draft, aligned with the approved v1 rated electrical envelope_
 
-**Documentation review:** 2026-09-22 — saved precision-channel implementation and role reconciled; no new electrical limits or protection policy selected.
+**Documentation review:** 2026-09-30 — reconciled the partly wired TPS48110 common-output stage and current startup analysis assumptions. The approved September 23 protection/live-adjustment requirements, rated electrical limits and September 22 precision-channel implementation are unchanged.
 
 ## 1. Purpose
 
@@ -413,6 +413,47 @@ The AC/DC supply and all mains wiring remain external to the PCB. The wall conne
 
 The common load disconnect is required because disabling the buck alone cannot remove miner power while the wall source is present. It shall provide a hardware path for local disable and fault shutdown while leaving the controller powered from the pre-disconnect bus when practical. Reverse blocking on both branches is separate from this load-disconnect function and prevents a healthy source from energizing the other source connector or power stage.
 
+**High-side short protection — approved 2026-09-23:** Per REQ-SAFE-036, the
+common output protection must also disconnect the load on overvoltage caused
+by a shorted buck high-side FET, independently of firmware execution or PWM
+shutdown. Its voltage withstand must cover the resulting PV fault exposure,
+not just the normal load rail. TPS48110-Q1 with external MOSFETs is the
+tentative common-stage implementation direction selected September 23, not
+a completed circuit. Load-safe voltage/time limits, trip timing and threshold,
+and protection coordination for components upstream of the disconnect
+(including output capacitors) remain open.
+
+**Saved implementation — 2026-09-30:** U7 is TPS48110AQDGXRQ1 (DGX 19-pin
+VSSOP). Q3/Q4 are IPT015N10N5ATMA1 in a common-source back-to-back pair;
+R18 is a 3 mΩ CSNL2512FT3L00 shunt. The wired gate network uses R19 120 kΩ
+from PU to shared gate, direct PD, R20 10 Ω / C42 22 nF in series from gate
+to ground, and C43 2.2 µF/100 V from BST to SRC. SRC joins both FET sources;
+CS− joins the Q3-drain side of R18. The outer bus/load connections and U7
+supply/ground, CS+, control, protection and monitor connections remain
+incomplete. Threshold programming, hardware OVP latching, startup/inrush and
+output discharge still need circuit completion and qualification. Its IMON
+output does not settle the total-current
+measurement or ADC allocation. Branch reverse blocking and wall isolation
+remain separate implementations. The auxiliary supply continues to draw from
+raw source taps upstream of commanded isolation so either source can boot the
+controller. This records the saved CAD changes; the documentation update
+does not edit CAD/IOC or establish circuit qualification.
+
+**Programmable output OVP — approved 2026-09-23:** Per REQ-SAFE-037, the
+hardware output-overvoltage trip threshold is programmable. Threshold
+configuration is separate from fault detection and load disconnection, which
+must not wait for firmware execution. OVP remains a latched fault per
+REQ-SAFE-031. The programming circuit, valid threshold bounds, startup default,
+safe update sequence and any automatic relationship to the output setpoint
+remain to be designed; no numeric margin or interface command is selected.
+
+**Controlled output discharge — approved 2026-09-23:** Per REQ-SAFE-038, a
+switched discharge path acts on the load side after the common disconnect
+opens. It is inactive during normal powered operation and does not discharge
+the combined source bus. The provisional 2,200 µF / 16 V-to-below-1 V / 1-second
+target and its verification are defined in the requirements; no circuit or
+additional MCU pin is selected yet.
+
 The wall branch also has a controller-owned electrical enable/isolation path. This is distinct from its physical service disconnect and automatic reverse blocking. It permits controlled source sequencing, wall-branch fault isolation, and safe use of low output setpoints that are incompatible with the fixed wall-supply voltage. On any incompatible wall-voltage/output-setpoint combination, the common load disconnect stays open until the wall branch is isolated and the bus is within the allowed rail envelope.
 
 Solar-first control is priority sharing rather than equal current sharing:
@@ -436,7 +477,22 @@ Startup and source-loss behavior:
 
 The wall-only and both-source sequences apply only to a load-rail setpoint compatible with the detected fixed wall voltage. Lower-voltage operation, including 5 V-class Bitaxe testing, uses PV-only operation with the wall branch electrically isolated or physically disconnected.
 
-Initial bring-up shall occur with the wall branch physically disconnected. Wall-assist validation is a later bring-up phase and shall not gate basic buck-control learning or standalone regulation.
+Initial bring-up shall occur with the wall branch physically disconnected. Wall-assist validation is a later bring-up phase and shall not gate basic buck-control learning or standalone regulation. Wall assist remains a core first-PCB feature, not a deferred deliverable.
+
+**Startup implementation direction — September 23:** Evaluate MPPT-first
+soft-start when PV can support it: hold the wall branch isolated, establish a
+safe low bus/load voltage, bring the common switch into its valid protected
+operating state, ramp the buck, then admit compatible wall backup. Controller
+minimum voltage and charge-pump readiness must be respected; do not assume an
+enhanced switch at a zero-volt bus. Preserve controlled wall-only startup,
+weak-PV fallback and reconnection to a live bus. The hardware ledger records
+revised **100/220 µF** load screen (September 28) and the common stage's
+**≤1 W at 10 A** hot-conduction target. The now-placed 120 kΩ / 22 nF network
+predicts approximately **5.59 ms to 16 V**, not a guaranteed timing bound.
+Bootstrap precharge/droop, active-load startup and low-bus/brownout behavior
+remain to qualify; these analysis assumptions are not new rated limits. They
+supersede the earlier 1,000/2,200 µF and 20 ms startup screen, not the separately
+recorded provisional discharge requirement target.
 
 ---
 
@@ -505,6 +561,17 @@ The exact packet/protocol definition remains open, but the architecture shall pr
 Runtime commands requesting output voltage, output current limit, or output power limit outside the rated electrical envelope shall be rejected atomically. The previous valid setting shall be retained, and the rejection reason shall be reported.
 
 This differs intentionally from startup handling of invalid persisted settings, which are clamped to safe allowed bounds before use.
+
+**Live voltage adjustment — approved 2026-09-23:** Per REQ-CFG-025, valid,
+supportable output-voltage changes use controlled live adjustment, not a
+routine disconnect/discharge/restart cycle. Coordinate the voltage trajectory,
+active undervoltage threshold, programmable hardware OVP and wall-branch state
+through the transition. Exact slew rates, active-command/ramp semantics and
+threshold-update ordering remain to be designed; existing immediate UV
+shutdown and latched OVP requirements are not waived. Controlled discharge
+under REQ-SAFE-038 remains an output-disabled function. Normal MPPT/control
+movement does not itself request a load power cycle; this decision does not
+select an MPPT algorithm or require MPPT to vary the output-voltage command.
 
 ---
 
@@ -667,7 +734,7 @@ Questions to resolve in later architecture/design passes:
 - What thermal model and cooling assumptions are appropriate for 100 W operation?
 - Which open-source and open-hardware licenses should be used?
 - What wall-supply nominal voltage/tolerance and MPPT bus ceiling provide adequate priority-sharing margin across current-dependent path drops?
-- Which ideal-diode/reverse-blocking, wall-branch protection, and common load-disconnect devices meet the voltage, current, loss, and single-fault requirements?
+- Which branch reverse-blocking/isolation devices and external TPS48110 common-stage components meet the voltage, current, loss, startup and single-fault requirements?
 - What transient envelope and output capacitance are required to ride through rapid PV loss until the wall supply assumes the deficit?
 
 Related artifact:
